@@ -235,9 +235,9 @@ export default function Contact() {
                 { 
                   icon: MapPin, 
                   label: t('contact.location'), 
-                  value: 'Vevey, Suisse', 
+                  value: t('contact.locationValue'), 
                   href: '#',
-                  description: 'Basé dans la région lémanique'
+                  description: t('contact.locationDesc')
                 }
               ].map((contact, index) => (
                 <motion.a
