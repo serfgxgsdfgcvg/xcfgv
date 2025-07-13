@@ -156,9 +156,9 @@ export default function Services() {
                   {service.title}
                 </motion.h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6 group-hover:text-gray-700 dark:group-hover:text-gray-400 transition-colors text-sm sm:text-base">
-                <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors text-sm sm:text-base text-balance">
+                <span className="text-balance">
                   {service.description}
-                </p>
+                </span>
               </div>
               
               <ul className="space-y-3">
