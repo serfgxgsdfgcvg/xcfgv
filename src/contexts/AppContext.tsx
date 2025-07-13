@@ -323,271 +323,271 @@ const translations = {
     // Navigation
     nav: {
       about: 'À propos',
-      work: 'Travaux',
+      work: 'Projets',
       services: 'Services',
       contact: 'Contact',
-      letsTalk: 'Discutons'
+      letsTalk: 'Parlons-en'
     },
     
     // Hero Section
     hero: {
-      subtitle: 'Solutions Créatives',
-      greeting: 'Bonjour, je suis',
+      subtitle: 'Médiamaticien',
+      greeting: 'Yo, moi c\'est',
       title1: 'Theo',
       title2: 'Solutions',
-      title3: 'Créatives',
-      description: 'Médiamaticien basé en Suisse, je combine créativité artistique et expertise technique pour créer des expériences visuelles authentiques.',
-      contactMe: 'Me Contacter',
+      title3: 'créatives polyvalentes',
+      description: 'Je suis médiamaticien en Suisse, et je transforme tes idées en projets visuels propres, impactants, et vraiment stylés.',
+      contactMe: 'On en parle ?',
       watchDemo: 'Voir la Démo',
-      yearsExperience: 'Années\nd\'Expérience',
-      projectsDelivered: 'Projets\nRéalisés',
+      yearsExperience: 'Années\nd\'expérience',
+      projectsDelivered: 'Projets\nlivrés',
       clientSatisfaction: 'Satisfaction\nClient',
-      clientsWorldwide: 'Clients\nMondiale',
+      clientsWorldwide: 'Clients\ndans le monde',
       service1: {
         title: 'Identité de Marque',
-        desc: 'Identités visuelles uniques qui racontent votre histoire'
+        desc: 'Logos et identité visuelle qui racontent ton histoire'
       },
       service2: {
         title: 'Design UI/UX',
-        desc: 'Interfaces intuitives pour une expérience utilisateur optimale'
+        desc: 'Interfaces qui fonctionnent et qui en jettent'
       },
       service3: {
-        title: 'Développement Web',
-        desc: 'Sites web modernes et responsives'
+        title: 'Design Print',
+        desc: 'Des supports qu\'on peut toucher et ressentir'
       },
       service4: {
-        title: 'Motion Graphics',
-        desc: 'Animations captivantes qui donnent vie à votre contenu'
+        title: 'Motion Design',
+        desc: 'Du contenu qui bouge et qui captive'
       }
     },
 
     // About Section
     about: {
-      subtitle: 'À Propos',
-      title1: 'Solutions',
-      title2: 'Créatives',
-      description1: 'Médiamaticien passionné basé en Suisse, je combine créativité artistique et expertise technique pour créer des expériences visuelles authentiques. Mon approche holistique du design me permet de développer des solutions créatives qui racontent votre histoire de manière unique.',
-      description2: 'Spécialisé en identité de marque et design d\'interface, j\'accompagne mes clients dans la création d\'expériences mémorables qui marquent les esprits et génèrent des résultats concrets.',
+      subtitle: 'Mon Parcours',
+      title1: 'Mon chemin',
+      title2: 'vers la création',
+      description1: 'J\'ai commencé comme beaucoup : avec des montages YouTube à 10 ans, la tête dans les pixels et les effets sonores. Minecraft, Fortnite, Call of... J\'ai passé des heures à tester, à bidouiller, à chercher ce qui marche.',
+      description2: 'Puis le dessin est arrivé. Ensuite, la médiamatique. Et là, j\'ai pigé : je veux faire ça. Créer. Concevoir. Donner vie à des idées visuelles qui parlent aux gens.',
       skill1: {
-        title: 'Design Créatif',
-        desc: 'Identité visuelle et design graphique'
+        title: 'Adobe Creative Suite',
+        desc: 'Maîtrise complète de la suite créative'
       },
       skill2: {
-        title: 'Design UI/UX',
-        desc: 'Interface et expérience utilisateur'
+        title: 'DaVinci Resolve',
+        desc: 'Montage vidéo et étalonnage professionnel'
       },
       skill3: {
-        title: 'Développement',
-        desc: 'Développement web et mobile'
+        title: 'Autodesk',
+        desc: 'Modélisation 3D et animation'
       },
       skill4: {
-        title: 'Stratégie',
-        desc: 'Stratégie digitale et conseil'
+        title: 'Figma',
+        desc: 'Design UI/UX et prototypage'
       }
     },
 
     // Portfolio Section
     portfolio: {
-      subtitle: 'Mes Travaux',
-      title1: 'Projets',
-      title2: 'Sélectionnés',
-      description: 'Découvrez quelques-uns de mes projets récents et réalisations créatives.',
+      subtitle: 'Mes Projets',
+      title1: 'Quelques trucs',
+      title2: 'que j\'ai kiffé faire',
+      description: 'Une sélection de projets qui montrent mon approche et mon style.',
       viewAllBehance: 'Voir tout sur Behance'
     },
 
     // Process Section
     process: {
       subtitle: 'Mon Processus',
-      title: 'Comment Je Travaille',
-      description1: 'Une approche structurée et collaborative',
-      description2: 'Chaque projet suit une méthodologie éprouvée pour garantir des résultats optimaux et une satisfaction client totale.',
+      title: 'Mon Processus Créatif',
+      description1: 'Une approche simple, structurée et sur-mesure',
+      description2: 'Chaque projet est unique, mais ma méthode reste solide. Voici comment je transforme tes idées en résultats concrets.',
       step1: {
-        title: 'Découverte & Stratégie',
-        desc: 'Comprendre vos besoins, objectifs et audience cible pour définir une stratégie claire.'
+        title: 'Brief & Écoute',
+        desc: 'Comprendre tes besoins, tes objectifs et l\'univers de ta marque.'
       },
       step2: {
-        title: 'Recherche & Analyse',
-        desc: 'Analyse du marché, étude de la concurrence et recherche de tendances pour éclairer les décisions de design.'
+        title: 'Recherche & Moodboard',
+        desc: 'Explorer les inspirations, les tendances et l\'environnement visuel adapté à ton projet.'
       },
       step3: {
-        title: 'Concept & Idéation',
-        desc: 'Brainstorming créatif et développement de concepts avec plusieurs directions de design.'
+        title: 'Croquis & Concepts',
+        desc: 'Esquisser les premières idées, réfléchir aux formes, aux messages, aux couleurs qui te correspondent.'
       },
       step4: {
-        title: 'Design & Création',
-        desc: 'Donner vie aux concepts avec un travail de design détaillé et un raffinement visuel.'
+        title: 'Design',
+        desc: 'Création du rendu final, avec typographies, visuels et composition professionnelle qui reflètent ton identité.'
       },
       step5: {
-        title: 'Révision & Itération',
-        desc: 'Sessions de feedback collaboratives et améliorations itératives pour perfectionner la solution.'
+        title: 'Révisions',
+        desc: 'Tes retours sont essentiels. On ajuste ensemble jusqu\'à valider ce qui te ressemble parfaitement.'
       },
       step6: {
-        title: 'Livraison & Lancement',
-        desc: 'Livraison finale avec tous les assets, guidelines et support continu pour l\'implémentation.'
+        title: 'Livraison & Accompagnement',
+        desc: 'Remise des fichiers optimisés, prêts à l\'emploi (web, print, réseaux). Je reste dispo pour toi !'
       },
       example: {
-        title: 'Exemple Concret : Projet NOIRBRUME',
-        description: 'Voyez comment ce processus se déroule en pratique avec un projet récent de marque de parfum de luxe.'
+        title: 'Exemple Concret',
+        description: 'Projet "NOIRBRUME" - Découvre mon processus en action à travers une conversation réaliste avec un client fictif. De la demande initiale à la livraison finale.'
       }
     },
 
     // Services Section
     services: {
       subtitle: 'Services',
-      title: 'Ce Que J\'Offre',
-      description: 'Solutions créatives complètes adaptées à vos besoins et objectifs.',
-      startProject: 'Démarrer un Projet',
+      title: 'Ce que je peux faire pour toi',
+      description: 'Des solutions créatives complètes adaptées à tes besoins et tes ambitions.',
+      startProject: 'Démarrer un projet',
       brandIdentity: {
         title: 'Identité de Marque',
-        desc: 'Création d\'identité visuelle complète qui reflète les valeurs de votre marque et résonne avec votre audience.',
-        feature1: 'Design de logo et variations',
-        feature2: 'Palette de couleurs et typographie',
-        feature3: 'Guidelines et standards de marque',
-        feature4: 'Design de cartes de visite et papeterie'
+        desc: 'Besoin d\'un logo qui claque et d\'une image qui raconte qui tu es ? Je t\'aide à construire une vraie identité — pas juste un logo vite fait.',
+        feature1: 'Logo (pro, pas sur Canva)',
+        feature2: 'Charte graphique claire',
+        feature3: 'Identité visuelle cohérente',
+        feature4: 'Positionnement de marque qui tient la route'
       },
       uiux: {
         title: 'Design UI/UX',
-        desc: 'Design d\'interface centré sur l\'utilisateur qui combine esthétique et fonctionnalité optimale.',
-        feature1: 'Recherche utilisateur et personas',
-        feature2: 'Wireframing et prototypage',
-        feature3: 'Design d\'interface visuelle',
-        feature4: 'Tests d\'utilisabilité et optimisation'
+        desc: 'Un bon design, c\'est pas juste joli. Faut que ça fonctionne. Je crée des interfaces simples, fluides et agréables à utiliser (même pour tata Josiane).',
+        feature1: 'Recherche utilisateur',
+        feature2: 'Wireframes propres',
+        feature3: 'Maquettes pixel-perfect',
+        feature4: 'Tests pour voir si tout tient'
       },
       webDev: {
         title: 'Développement Web',
-        desc: 'Sites web modernes et responsives construits avec les dernières technologies pour une performance optimale.',
+        desc: 'Sites web modernes et responsives qui fonctionnent parfaitement sur tous les appareils.',
         feature1: 'Design web responsive',
-        feature2: 'Systèmes de gestion de contenu',
-        feature3: 'Solutions e-commerce',
-        feature4: 'Optimisation des performances'
+        feature2: 'Optimisation SEO',
+        feature3: 'Performance rapide',
+        feature4: 'Maintenance facile'
       },
       mobile: {
         title: 'Design Mobile',
-        desc: 'Applications mobiles natives et cross-platform avec des expériences utilisateur intuitives.',
+        desc: 'Ton app mérite mieux qu\'un template par défaut. Je te fais une interface claire, intuitive, et agréable à utiliser dans le métro.',
         feature1: 'Design iOS et Android',
-        feature2: 'Prototypage d\'applications',
-        feature3: 'Optimisation des flux utilisateur',
-        feature4: 'Optimisation pour les app stores'
+        feature2: 'Parcours utilisateur bien pensé',
+        feature3: 'Onboarding fluide',
+        feature4: 'Icônes, menus, et tous les petits détails qui font la diff'
       },
       creative: {
-        title: 'Direction Créative',
-        desc: 'Guidance créative stratégique pour assurer la cohérence de marque sur tous les points de contact.',
-        feature1: 'Développement de stratégie créative',
-        feature2: 'Conceptualisation de campagnes',
-        feature3: 'Direction artistique',
-        feature4: 'Positionnement de marque'
+        title: 'Design Print',
+        desc: 'Des trucs qu\'on peut toucher. Flyers, cartes, affiches — tout ce qui se lit avec les yeux et les mains.',
+        feature1: 'Mise en page soignée',
+        feature2: 'Bon choix de typo (pas Comic Sans, t\'inquiète)',
+        feature3: 'Harmonies de couleurs au petit oignon',
+        feature4: 'Fichiers prêts pour l\'imprimeur'
       },
       motion: {
-        title: 'Motion Graphics',
-        desc: 'Animations engageantes et motion graphics qui donnent vie à votre marque.',
-        feature1: 'Animations de logo',
-        feature2: 'Vidéos explicatives',
-        feature3: 'Contenu pour réseaux sociaux',
-        feature4: 'Présentations interactives'
+        title: 'Motion Design & Vidéo',
+        desc: 'Du contenu qui bouge bien. Je monte, j\'anime, je donne du rythme à ta com\' visuelle.',
+        feature1: 'Animation de logos stylés',
+        feature2: 'Montages vidéos dynamiques',
+        feature3: 'Teasers, trailers, reels, stories...',
+        feature4: 'Micro-animations et effets smooth'
       }
     },
 
     // Testimonials Section
     testimonials: {
       subtitle: 'Témoignages',
-      title: 'Ce Que Disent Mes Clients',
-      description: 'Découvrez ce que pensent mes clients de notre collaboration et des résultats obtenus.',
-      trustedBy: 'Fait Confiance par des Entreprises Leaders',
-      trustedByDesc: 'J\'ai eu le privilège de travailler avec des entreprises innovantes à travers le monde.',
-      googleReviewTitle: 'Vous avez travaillé avec moi ?',
-      googleReviewDescription: 'Votre avis compte énormément ! Partagez votre expérience sur Google Reviews et aidez d\'autres clients à découvrir la qualité de mes services créatifs.',
+      title: 'Ce que disent les clients',
+      description: 'Les retours de personnes qui m\'ont fait confiance pour leurs projets.',
+      trustedBy: 'Ils me font confiance',
+      trustedByDesc: 'Entreprises et entrepreneurs qui ont choisi mes services',
+      googleReviewTitle: 'Tu as travaillé avec moi ?',
+      googleReviewDescription: 'Ton avis compte énormément ! Partage ton expérience sur Google Reviews et aide d\'autres clients à découvrir la qualité de mes services créatifs.',
       googleReviewButton: 'Laisser un avis sur Google',
-      googleReviewFooter: 'Votre avis nous aide à grandir'
+      googleReviewFooter: 'Ton avis nous aide à grandir'
     },
 
     // Individual testimonials
     testimonial1: {
-      name: 'Sarah Johnson',
-      role: 'CEO, TechStart',
-      content: 'Theo a transformé complètement notre identité de marque. Son attention aux détails et sa vision créative ont dépassé nos attentes. Le nouveau design a considérablement amélioré notre présence sur le marché.',
-      company: 'TechStart Inc.',
-      project: 'Refonte complète de l\'identité de marque',
-      date: 'Décembre 2023'
-    },
-    testimonial2: {
-      name: 'Michael Chen',
-      role: 'Founder, DesignCo',
-      content: 'Travailler avec Theo a été un plaisir absolu. Il a livré un site web époustouflant qui non seulement a l\'air incroyable, mais fonctionne aussi exceptionnellement bien. L\'expérience utilisateur est fluide.',
-      company: 'DesignCo Studio',
-      project: 'Développement site web & UX',
-      date: 'Novembre 2023'
-    },
-    testimonial3: {
       name: 'Emily Rodriguez',
       role: 'Marketing Director, InnovateLab',
-      content: 'L\'approche créative et l\'expertise technique de Theo nous ont aidés à lancer une campagne digitale réussie. Les résultats parlent d\'eux-mêmes - 300% d\'augmentation de l\'engagement !',
+      content: 'L\'approche créative et l\'expertise technique de Théo nous ont aidés à lancer une campagne digitale réussie. Les résultats parlent d\'eux-mêmes – 300 % d\'augmentation de l\'engagement !',
       company: 'InnovateLab',
       project: 'Campagne digitale & Motion Graphics',
       date: 'Octobre 2023'
     },
+    testimonial2: {
+      name: 'Client anonyme',
+      role: 'testimonial2.role',
+      content: 'Théo a su capter l\'essence de ma marque dès le départ. Communication fluide, délais respectés, et résultat pro. Je recommande vivement.',
+      company: 'testimonial2.company',
+      project: 'Création de logo',
+      date: 'Avril 2025'
+    },
+    testimonial3: {
+      name: 'Meier Nils',
+      role: 'Entrepreneur',
+      content: 'Le design de ma carte de visite est exactement ce que je cherchais : minimaliste, élégant et percutant. Merci pour ton écoute et ton professionnalisme !',
+      company: 'testimonial3.company',
+      project: 'Identité visuelle & carte de visite',
+      date: 'Avril 2025'
+    },
     testimonial4: {
-      name: 'David Martinez',
-      role: 'Product Manager, StartupX',
-      content: 'Theo a une capacité unique à comprendre nos besoins et à les traduire en solutions visuelles exceptionnelles. Son professionnalisme et sa créativité sont remarquables.',
-      company: 'StartupX',
-      project: 'Interface mobile & Prototypage',
-      date: 'Septembre 2023'
+      name: 'Lukas Steinmann',
+      role: 'Directeur artistique',
+      content: 'La collaboration avec Théo Blondel a été excellente. Sa campagne d\'affiches a dépassé toutes nos attentes — un travail créatif, moderne, précis jusque dans les détails. Mention spéciale pour son sens des couleurs, des typos et de l\'impact visuel.',
+      company: 'testimonial4.company',
+      project: 'Campagne print & direction artistique',
+      date: 'Avril 2025'
     },
     testimonial5: {
-      name: 'Lisa Thompson',
-      role: 'Creative Director, BrandForge',
-      content: 'La collaboration avec Theo a été exceptionnelle. Il apporte une perspective fraîche et innovante à chaque projet. Ses compétences en design et en stratégie sont impressionnantes.',
-      company: 'BrandForge',
-      project: 'Stratégie de marque & Guidelines',
-      date: 'Août 2023'
+      name: 'Azdine Tafssout',
+      role: 'Chef de projet',
+      content: 'Toujours un plaisir de bosser avec Théo. Réactif, créatif et fiable. Chaque projet avance sans stress.',
+      company: 'testimonial5.company',
+      project: 'Identité de marque & print',
+      date: 'Février 2025'
     },
     testimonial6: {
-      name: 'Alexandre Dubois',
-      role: 'Directeur Marketing, InnovaTech',
-      content: 'Le travail de Theo sur notre nouvelle identité visuelle a été remarquable. Il a su capturer l\'essence de notre marque et la traduire en un design moderne et percutant. Nous sommes ravis du résultat final.',
-      company: 'InnovaTech',
-      project: 'Création d\'identité visuelle',
-      date: 'Juillet 2023'
+      name: 'Noa Vellin',
+      role: 'Responsable produit',
+      content: 'Super collaboration. Le projet a été fluide du début à la fin. Résultat propre, livré dans les temps, et fidèle à notre vision.',
+      company: 'testimonial6.company',
+      project: 'Design packaging & supports de com\'',
+      date: 'Avril 2025'
     },
     testimonial7: {
-      name: 'Sophie Lefevre',
-      role: 'Chef de Projet, DigitalFlow',
-      content: 'Theo a fait preuve d\'une grande écoute et d\'une réactivité exemplaire. Le site web qu\'il a conçu pour nous est non seulement esthétique, mais aussi très fonctionnel et facile à naviguer. Un vrai professionnel !',
-      company: 'DigitalFlow',
-      project: 'Refonte de site web',
-      date: 'Juin 2023'
+      name: 'Julia Renard',
+      role: 'Fondatrice, Atelier Kura',
+      content: 'Théo a géré notre rebranding de A à Z. Il a tout restructuré avec clarté, goût et une vraie sensibilité. On a su dès les premiers échanges qu\'on allait bosser avec lui.',
+      company: 'Atelier Kura',
+      project: 'Refonte d\'identité visuelle',
+      date: 'Mars 2025'
     },
 
     // Contact Section
     contact: {
       subtitle: 'Contact',
-      title1: 'Créons',
-      title2: 'Ensemble',
-      description: 'Prêt à donner vie à votre projet ? Discutons de votre vision et voyons comment nous pouvons la concrétiser.',
-      getInTouch: 'Entrons en Contact',
-      getInTouchDesc: 'Je suis toujours ravi de travailler sur de nouveaux projets et de rencontrer des personnes créatives.',
+      title1: 'On discute',
+      title2: 'de ton projet ?',
+      description: 'T\'as une idée ? T\'as besoin d\'un coup de main visuel ? Ou juste envie de savoir si ça peut coller entre nous ?',
+      getInTouch: 'Restons en Contact',
+      getInTouchDesc: 'Prêt à démarrer ton projet ? Parlons de ta vision et voyons comment nous pouvons la concrétiser ensemble.',
       email: 'Email',
-      emailDesc: 'Envoyez-moi un message à tout moment',
+      emailDesc: 'Écris-moi, je réponds vite',
       location: 'Localisation',
-      followMe: 'Suivez-Moi',
+      followMe: 'Suis-moi',
       sendMessage: 'Envoyer un Message',
       name: 'Nom',
-      namePlaceholder: 'Votre nom',
+      namePlaceholder: 'Ton nom',
       emailPlaceholder: 'votre.email@exemple.com',
       subject: 'Sujet',
-      subjectPlaceholder: 'Sujet du projet',
+      subjectPlaceholder: 'C\'est quoi ton projet ?',
       message: 'Message',
-      messagePlaceholder: 'Parlez-moi de votre projet...',
-      sendBtn: 'Envoyer le Message'
+      messagePlaceholder: 'Parle-moi de ton projet...',
+      sendBtn: 'Envoyer le message'
     },
 
     // Footer
     footer: {
-      description: 'Spécialiste en solutions créatives basé en Suisse. J\'aide les marques à créer des expériences visuelles authentiques et mémorables.',
+      description: 'Médiamaticien basé en Suisse, spécialisé en identité de marque et design d\'interface.',
       quickLinks: 'Liens Rapides',
       services: 'Services',
       brandIdentity: 'Identité de Marque',
-      uiuxDesign: 'Design UI/UX',
+      uiuxDesign: 'UI/UX Design',
       webDevelopment: 'Développement Web',
       motionGraphics: 'Motion Graphics',
       madeWith: 'Fait avec',
@@ -599,28 +599,28 @@ const translations = {
     fakeChat: {
       clientName: 'Client - NOIRBRUME',
       onlineStatus: 'En ligne',
-      message1: 'Bonjour Theo, j\'espère que vous allez bien. J\'ai un projet passionnant à vous proposer. Nous avons besoin d\'une identité visuelle complète pour notre nouvelle marque de parfum de luxe, \'NOIRBRUME\'.',
-      timestamp1: '10:00',
-      message2: 'Absolument ! Je suis ravi d\'entendre parler de votre projet. Le nom \'NOIRBRUME\' évoque déjà une atmosphère intrigante. Pourriez-vous me donner plus de détails sur la vision de la marque, le public cible et les valeurs que vous souhaitez communiquer ?',
-      timestamp2: '10:05',
-      message3: 'Bien sûr. Nous visons une clientèle haut de gamme, appréciant le mystère, l\'élégance et la sophistication. Nous souhaitons une identité qui soit à la fois moderne et intemporelle, avec une touche de minimalisme. Voici quelques inspirations que nous avons collectées.',
-      timestamp3: '10:10',
-      message4: 'Merci pour ces précieuses informations et les inspirations ! Cela me donne une excellente base pour commencer. J\'ai déjà quelques idées en tête. Je vous envoie un premier moodboard et quelques esquisses préliminaires pour valider la direction artistique. N\'hésitez pas à me faire part de vos retours.',
-      timestamp4: '10:15',
-      attachmentName1: 'Moodboard_NOIRBRUME.pdf',
-      attachmentLabel: 'Fichier joint',
-      message5: 'C\'est exactement ce que nous avions imaginé ! Le moodboard capture parfaitement l\'ambiance. Les esquisses sont très prometteuses. Nous sommes particulièrement séduits par l\'option B. Pouvez-vous développer cette direction ?',
-      timestamp5: '10:20',
-      message6: 'Excellent ! Je suis ravi que la direction vous plaise. Je vais affiner l\'option B et préparer des propositions de logos plus détaillées, ainsi que des applications sur différents supports (packaging, papeterie, etc.). Je vous enverrai une présentation complète d\'ici la fin de la semaine. En attendant, voici un aperçu rapide de l\'évolution du logo.',
-      timestamp6: '10:25',
-      attachmentName2: 'Logo_Evolution_NOIRBRUME.png',
-      message7: 'Impressionnant ! La rapidité et la qualité de votre travail sont exceptionnelles. Nous avons hâte de voir la présentation finale. Merci beaucoup, Theo !',
-      timestamp7: '10:30',
-      message8: 'C\'est un plaisir de travailler avec vous ! Je suis impatient de vous présenter la suite. À très vite !',
-      timestamp8: '10:35',
-      attachmentName3: 'Presentation_Finale_NOIRBRUME.pdf',
-      downloadButton: 'Télécharger',
-      typingIndicator: 'écrit...'
+      message1: 'Salut Théo ! J\'ai besoin d\'un logo pour ma marque "NOIRBRUME". Un style streetwear, sobre et poétique.',
+      timestamp1: '14:32',
+      message2: 'Trop stylé comme nom ! Je vois déjà un logo typographique minimal avec une ambiance brumeuse. Je t\'envoie une première idée ce soir !',
+      timestamp2: '14:35',
+      message3: '',
+      timestamp3: '',
+      message4: '',
+      timestamp4: '',
+      attachmentName1: '',
+      attachmentLabel: '',
+      message5: '',
+      timestamp5: '',
+      message6: '',
+      timestamp6: '',
+      attachmentName2: '',
+      message7: '',
+      timestamp7: '',
+      message8: '',
+      timestamp8: '',
+      attachmentName3: '',
+      downloadButton: '',
+      typingIndicator: ''
     }
   },
 
