@@ -217,6 +217,8 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Médiamaticien suisse. J\'aide les marques à avoir une image qui tue.',
+    'footer.tagline': 'Solutions Créatives',
+    'footer.backToTop': 'Retour en haut',
     'footer.contact': 'Contact',
     'footer.followMe': 'Me suivre',
     'footer.projectsCompleted': 'Projets réalisés',
@@ -462,6 +464,8 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Swiss media designer. I help brands have a killer image.',
+    'footer.tagline': 'Creative Solutions',
+    'footer.backToTop': 'Back to top',
     'footer.contact': 'Contact',
     'footer.followMe': 'Follow Me',
     'footer.projectsCompleted': 'Projects Completed',
@@ -707,6 +711,8 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Diseñador multimedia suizo. Ayudo a las marcas a tener una imagen que impacte.',
+    'footer.tagline': 'Soluciones Creativas',
+    'footer.backToTop': 'Volver arriba',
     'footer.contact': 'Contacto',
     'footer.followMe': 'Sígueme',
     'footer.projectsCompleted': 'Proyectos Completados',
@@ -952,6 +958,8 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Швейцарский медиа-дизайнер. Помогаю брендам иметь убойный имидж.',
+    'footer.tagline': 'Творческие решения',
+    'footer.backToTop': 'Наверх',
     'footer.contact': 'Контакт',
     'footer.followMe': 'Подписаться',
     'footer.projectsCompleted': 'Завершенные проекты',
@@ -1197,6 +1205,8 @@ const translations = {
 
     // Footer Section
     'footer.description': '瑞士媒体设计师。帮助品牌拥有杀手级形象。',
+    'footer.tagline': '创意解决方案',
+    'footer.backToTop': '返回顶部',
     'footer.contact': '联系方式',
     'footer.followMe': '关注我',
     'footer.projectsCompleted': '完成项目',
@@ -1442,6 +1452,8 @@ const translations = {
 
     // Footer Section
     'footer.description': 'スイスのメディアデザイナー。ブランドが印象的なイメージを持つお手伝いをします。',
+    'footer.tagline': 'クリエイティブソリューション',
+    'footer.backToTop': 'トップに戻る',
     'footer.contact': '連絡先',
     'footer.followMe': 'フォロー',
     'footer.projectsCompleted': '完了プロジェクト',
@@ -1687,6 +1699,8 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Schweizer Mediendesigner. Ich helfe Marken, ein killer Image zu haben.',
+    'footer.tagline': 'Kreative Lösungen',
+    'footer.backToTop': 'Nach oben',
     'footer.contact': 'Kontakt',
     'footer.followMe': 'Folgen Sie mir',
     'footer.projectsCompleted': 'Abgeschlossene Projekte',
@@ -1932,6 +1946,8 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Media designer svizzero. Aiuto i brand ad avere un\'immagine che spacca.',
+    'footer.tagline': 'Soluzioni Creative',
+    'footer.backToTop': 'Torna su',
     'footer.contact': 'Contatto',
     'footer.followMe': 'Seguimi',
     'footer.projectsCompleted': 'Progetti Completati',
@@ -2177,6 +2193,8 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Designer de mídia suíço. Ajudo marcas a terem uma imagem que arrasa.',
+    'footer.tagline': 'Soluções Criativas',
+    'footer.backToTop': 'Voltar ao topo',
     'footer.contact': 'Contato',
     'footer.followMe': 'Siga-me',
     'footer.projectsCompleted': 'Projetos Concluídos',
@@ -2422,6 +2440,8 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Dizajner mediash zviceran. Ndihmoj markat të kenë një imazh që bën përshtypje.',
+    'footer.tagline': 'Zgjidhje Kreative',
+    'footer.backToTop': 'Kthehu lart',
     'footer.contact': 'Kontakt',
     'footer.followMe': 'Më ndiqni',
     'footer.projectsCompleted': 'Projekte të Përfunduara',
