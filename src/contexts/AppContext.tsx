@@ -1835,7 +1835,7 @@ const translations = {
     'testimonial2.project': 'Identità visiva',
     'testimonial2.date': 'Novembre 2023',
     'testimonial3.name': 'Lukas Steinmann',
-    'testimonial3.role': 'AD freelance',
+    'testimonial3.role': 'DA freelance',
     'testimonial3.company': 'Studio Creativo',
     'testimonial3.content': 'Una campagna stampa ultra-impattante. Design moderno, messaggio chiaro, e direzione artistica perfetta.',
     'testimonial3.project': 'Campagna stampa',
