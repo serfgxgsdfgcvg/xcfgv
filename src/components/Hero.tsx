@@ -83,7 +83,7 @@ export default function Hero() {
                       initial={{ opacity: 0, y: 30 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4 }}
-                      className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 group-hover:text-gray-700 dark:group-hover:text-gray-400 transition-colors text-sm sm:text-base text-balance"
+                      className="block text-3xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-black dark:text-white"
                     >
                       {t('hero.title1')}
                     </motion.span>
