@@ -225,15 +225,25 @@ export default function InteractiveCV() {
               className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700"
             >
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">À propos de moi</h2>
-              <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
+              <motion.p
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.7 }}
+                className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 text-balance"
+              >
                 Médiamaticien passionné basé en Suisse, je combine créativité artistique et expertise technique 
                 pour créer des expériences visuelles authentiques. Mon approche holistique du design me permet 
                 de développer des solutions créatives qui racontent votre histoire de manière unique.
-              </p>
-              <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.9 }}
+                className="text-gray-600 dark:text-gray-400 leading-relaxed text-balance"
+              >
                 Spécialisé en identité de marque et design d'interface, j'accompagne mes clients dans la 
                 création d'expériences mémorables qui marquent les esprits et génèrent des résultats concrets.
-              </p>
+              </motion.p>
             </motion.div>
 
             <motion.div
@@ -304,7 +314,7 @@ export default function InteractiveCV() {
                     </div>
                   </div>
                   
-                  <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">{exp.description}</p>
+                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-balance mb-4">{exp.description}</p>
                   
                   <div className="space-y-2">
                     <h4 className="font-semibold text-gray-900 dark:text-white">Réalisations clés :</h4>
@@ -369,7 +379,7 @@ export default function InteractiveCV() {
                     </div>
                   </div>
                   
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{edu.description}</p>
+                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-balance">{edu.description}</p>
                 </motion.div>
               ))}
             </div>
@@ -522,7 +532,7 @@ export default function InteractiveCV() {
                         {project.category}
                       </span>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed">{project.description}</p>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed text-balance">{project.description}</p>
                     
                     <motion.a
                       href={project.link}
