@@ -183,6 +183,9 @@ export default function Services() {
             </motion.div>
           ))}
         </div>
+          )
+          )
+          }
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
