@@ -201,7 +201,7 @@ export default function Contact() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto"
+            className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-balance"
           >
             {t('contact.description')}
           </motion.p>
@@ -218,7 +218,7 @@ export default function Contact() {
           >
             <div>
               <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6">{t('contact.getInTouch')}</h3>
-              <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-8 text-base sm:text-lg">
+              <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-8 text-base sm:text-lg text-balance">
                 {t('contact.getInTouchDesc')}
               </p>
             </div>
