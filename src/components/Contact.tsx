@@ -288,7 +288,7 @@ export default function Contact() {
                     icon: Instagram, 
                     href: 'https://www.instagram.com/theo.blondel/', 
                     label: 'Instagram',
-                    color: 'hover:bg-pink-600'
+                    value: t('contact.locationValue'), 
                   },
                   { 
                     icon: BehanceIcon, 
@@ -300,7 +300,7 @@ export default function Contact() {
                     icon: Github, 
                     href: 'https://github.com/theoblondel', 
                     label: 'GitHub',
-                    color: 'hover:bg-gray-700'
+                    description: t('contact.locationDesc')
                   }
                 ].map((social, index) => (
                   <motion.a
