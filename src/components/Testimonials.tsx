@@ -194,7 +194,7 @@ export default function Testimonials() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto"
+            className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-balance"
           >
             {t('testimonials.description')}
           </motion.p>
@@ -208,7 +208,9 @@ export default function Testimonials() {
           className="text-center mb-16"
         >
           <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-8 uppercase tracking-wider">{t('testimonials.trustedBy')}</h3>
-          <p className="text-gray-600 dark:text-gray-400 mb-8">{t('testimonials.trustedByDesc')}</p>
+          <p className="text-gray-600 dark:text-gray-400 mb-8 text-balance">
+            {t('testimonials.trustedByDesc')}
+          </p>
           
           {/* Horizontal scrolling companies */}
           <div className="relative overflow-hidden">
@@ -285,7 +287,7 @@ export default function Testimonials() {
                       <motion.p
                         whileHover={{ x: 5 }}
                         transition={{ duration: 0.2 }}
-                        className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed group-hover:text-gray-800 dark:group-hover:text-gray-200 transition-colors text-sm sm:text-base"
+                        className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed group-hover:text-gray-800 dark:group-hover:text-gray-200 transition-colors text-sm sm:text-base text-balance"
                       >
                         "{testimonial.content}"
                       </motion.p>
@@ -393,7 +395,7 @@ export default function Testimonials() {
           <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4">
             {t('testimonials.googleReviewTitle')}
           </h3>
-          <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
+          <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto text-balance">
             {t('testimonials.googleReviewDescription')}
           </p>
 
