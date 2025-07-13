@@ -102,7 +102,7 @@ export default function Hero() {
                 <motion.p
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                     {t('hero.title3')}
+                  transition={{ delay: 0.7 }}
                   className="text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed max-w-lg mx-auto lg:mx-0 text-balance"
                 >
                   {t('hero.description')}
