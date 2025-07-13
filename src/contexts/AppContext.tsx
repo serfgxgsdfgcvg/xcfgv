@@ -195,7 +195,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': 'Contact',
     'contact.title1': 'On en parle ?',
-    'contact.title2': '',
+    'contact.title2': 'Raconte-moi.',
     'contact.description': 'Un projet en tête ? Une idée floue ? Ou juste besoin d\'un œil pro ?',
     'contact.getInTouch': 'Restons en contact',
     'contact.getInTouchDesc': 'Discutons et voyons si je peux t\'aider à concrétiser ton idée.',
@@ -434,7 +434,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': 'Contact',
     'contact.title1': 'Let\'s talk?',
-    'contact.title2': '',
+    'contact.title2': 'Tell me.',
     'contact.description': 'Got a project in mind? A vague idea? Or just need a professional eye?',
     'contact.getInTouch': 'Let\'s stay in touch',
     'contact.getInTouchDesc': 'Let\'s discuss and see if I can help you make your idea concrete.',
@@ -673,7 +673,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': 'Contacto',
     'contact.title1': '¿Hablamos?',
-    'contact.title2': '',
+    'contact.title2': 'Cuéntame.',
     'contact.description': '¿Tienes un proyecto en mente? ¿Una idea vaga? ¿O solo necesitas un ojo profesional?',
     'contact.getInTouch': 'Mantengámonos en contacto',
     'contact.getInTouchDesc': 'Hablemos y veamos si puedo ayudarte a hacer realidad tu idea.',
@@ -912,7 +912,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': 'Контакты',
     'contact.title1': 'Поговорим?',
-    'contact.title2': '',
+    'contact.title2': 'Расскажи мне.',
     'contact.description': 'Есть проект в голове? Смутная идея? Или просто нужен профессиональный взгляд?',
     'contact.getInTouch': 'Давайте оставаться на связи',
     'contact.getInTouchDesc': 'Давайте обсудим и посмотрим, смогу ли я помочь воплотить твою идею.',
@@ -1151,7 +1151,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': '联系',
     'contact.title1': '聊聊？',
-    'contact.title2': '',
+    'contact.title2': '告诉我。',
     'contact.description': '脑中有项目？模糊的想法？还是只需要专业的眼光？',
     'contact.getInTouch': '保持联系',
     'contact.getInTouchDesc': '让我们讨论一下，看看我是否能帮你实现想法。',
@@ -1390,7 +1390,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': 'お問い合わせ',
     'contact.title1': 'お話しませんか？',
-    'contact.title2': '',
+    'contact.title2': '教えて。',
     'contact.description': '頭の中にプロジェクトがありますか？漠然としたアイデア？それともプロの目が必要ですか？',
     'contact.getInTouch': '連絡を取り合いましょう',
     'contact.getInTouchDesc': '話し合って、あなたのアイデアを具体化するお手伝いができるか見てみましょう。',
@@ -1629,7 +1629,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': 'Kontakt',
     'contact.title1': 'Reden wir?',
-    'contact.title2': '',
+    'contact.title2': 'Erzähl mir.',
     'contact.description': 'Ein Projekt im Kopf? Eine vage Idee? Oder brauchst du einfach ein professionelles Auge?',
     'contact.getInTouch': 'Bleiben wir in Kontakt',
     'contact.getInTouchDesc': 'Lass uns sprechen und schauen, ob ich dir helfen kann, deine Idee zu konkretisieren.',
@@ -1868,7 +1868,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': 'Contatti',
     'contact.title1': 'Ne parliamo?',
-    'contact.title2': '',
+    'contact.title2': 'Raccontami.',
     'contact.description': 'Un progetto in testa? Un\'idea vaga? O hai solo bisogno di un occhio professionale?',
     'contact.getInTouch': 'Restiamo in contatto',
     'contact.getInTouchDesc': 'Parliamo e vediamo se posso aiutarti a concretizzare la tua idea.',
@@ -2107,7 +2107,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': 'Contato',
     'contact.title1': 'Vamos conversar?',
-    'contact.title2': '',
+    'contact.title2': 'Me conta.',
     'contact.description': 'Um projeto na cabeça? Uma ideia vaga? Ou só precisa de um olhar profissional?',
     'contact.getInTouch': 'Vamos manter contato',
     'contact.getInTouchDesc': 'Vamos conversar e ver se posso te ajudar a concretizar sua ideia.',
@@ -2346,7 +2346,7 @@ const translations = {
     // Contact Section
     'contact.subtitle': 'Kontakti',
     'contact.title1': 'Le të flasim?',
-    'contact.title2': '',
+    'contact.title2': 'Më trego.',
     'contact.description': 'Një projekt në mendje? Një ide e vagët? Apo thjesht keni nevojë për një sy profesional?',
     'contact.getInTouch': 'Le të qëndrojmë në kontakt',
     'contact.getInTouchDesc': 'Le të diskutojmë dhe të shohim nëse mund t\'ju ndihmoj të konkretizoni idenë tuaj.',
