@@ -2515,6 +2515,8 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       document.documentElement.classList.remove('dark');
     }
     return 'light';
+  }
+  )
 
   useEffect(() => {
     localStorage.setItem('language', language);
