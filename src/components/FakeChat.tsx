@@ -44,40 +44,37 @@ export default function FakeChat() {
       id: 4,
       type: 'you',
       content: t('fakeChat.message4'),
-      timestamp: t('fakeChat.timestamp4'),
-      hasAttachment: true,
-      attachmentName: t('fakeChat.attachmentName1'),
-      attachmentUrl: '/DSC00831.png'
+      timestamp: t('fakeChat.timestamp4')
     },
     {
       id: 5,
       type: 'client',
       content: t('fakeChat.message5'),
-      timestamp: t('fakeChat.timestamp5')
+      timestamp: t('fakeChat.timestamp5'),
+      hasAttachment: true,
+      attachmentName: t('fakeChat.attachmentName1'),
+      attachmentUrl: '/DSC00831.png'
     },
     {
       id: 6,
       type: 'you',
       content: t('fakeChat.message6'),
-      timestamp: t('fakeChat.timestamp6'),
+      timestamp: t('fakeChat.timestamp6')
+    },
+    {
+      id: 7,
+      type: 'you',
+      content: t('fakeChat.message7'),
+      timestamp: t('fakeChat.timestamp7'),
       hasAttachment: true,
       attachmentName: t('fakeChat.attachmentName2'),
       attachmentUrl: '/DSC00831.png'
     },
     {
-      id: 7,
-      type: 'client',
-      content: t('fakeChat.message7'),
-      timestamp: t('fakeChat.timestamp7')
-    },
-    {
       id: 8,
-      type: 'you',
+      type: 'client',
       content: t('fakeChat.message8'),
-      timestamp: t('fakeChat.timestamp8'),
-      hasAttachment: true,
-      attachmentName: t('fakeChat.attachmentName3'),
-      attachmentUrl: '/DSC00831.png'
+      timestamp: t('fakeChat.timestamp8')
     }
   ];
 
