@@ -291,13 +291,13 @@ export default function Contact() {
                   },
                   { 
                     icon: Instagram, 
-                    href: 'https://www.instagram.com/theo.blondel/', 
+                    href: 'https://www.instagram.com/theoblondel.ch/', 
                     label: 'Instagram',
                     color: 'hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black'
                   },
                   { 
                     icon: BehanceIcon, 
-                    href: 'https://www.behance.net/theoblondel', 
+                    href: 'https://www.behance.net/JusteTheo', 
                     label: 'Behance',
                     color: 'hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black'
                   }

@@ -20,9 +20,9 @@ const LinkedinIcon = ({ size = 20, className = "" }) => (
 
 const InstagramIcon = ({ size = 20, className = "" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className}>
-    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
-    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" stroke="currentColor" strokeWidth="2"/>
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" stroke="currentColor" strokeWidth="2" fill="none"/>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" strokeWidth="2" fill="none"/>
+    <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
   </svg>
 );
 
@@ -41,12 +41,12 @@ export default function Footer() {
     },
     {
       icon: InstagramIcon,
-      href: 'https://www.instagram.com/theo.blondel/',
+      href: 'https://www.instagram.com/theoblondel.ch/',
       label: 'Instagram'
     },
     {
       icon: BehanceIcon,
-      href: 'https://www.behance.net/theoblondel',
+      href: 'https://www.behance.net/JusteTheo',
       label: 'Behance'
     }
   ];
