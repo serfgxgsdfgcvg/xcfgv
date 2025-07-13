@@ -85,7 +85,7 @@ export default function Hero() {
                       transition={{ delay: 0.4 }}
                       className="block"
                     >
-                     {t('hero.title1')}
+                      {t('hero.title1')}
                     </motion.span>
                     <motion.span
                       initial={{ opacity: 0, y: 30 }}
@@ -93,8 +93,15 @@ export default function Hero() {
                       transition={{ delay: 0.5 }}
                       className="block italic font-light"
                     >
-                     {t('hero.title2')}
                       {t('hero.title2')}
+                    </motion.span>
+                    <motion.span
+                      initial={{ opacity: 0, y: 30 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.6 }}
+                      className="block font-bold"
+                    >
+                      {t('hero.title3')}
                     </motion.span>
                   </h1>
                 </motion.div>
@@ -102,7 +109,7 @@ export default function Hero() {
                 <motion.p
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.7 }}
+                  transition={{ delay: 0.8 }}
                   className="text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed max-w-lg mx-auto lg:mx-0 text-balance"
                 >
                   {t('hero.description')}
@@ -112,7 +119,7 @@ export default function Hero() {
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.8 }}
+                transition={{ delay: 0.9 }}
                 className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start"
               >
                 <motion.button
