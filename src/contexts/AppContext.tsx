@@ -1908,7 +1908,7 @@ const translations = {
     'fakeChat.downloadButton': 'Scarica',
     'fakeChat.message1': 'Ciao Théo! Ho bisogno di un logo per il mio brand "NOIRBRUME". Uno stile streetwear, sobrio e poetico.',
     'fakeChat.timestamp1': '14:32',
-    'fakeChat.message2': 'Nome super figo! Vedo già un logo tipografico minimale con atmosfera nebbiosa. Ti mando una prima idea stasera.',
+    'fakeChat.message2': 'Nome super figo! Vedo già un logo tipografico minimal con atmosfera nebbiosa. Ti mando una prima idea stasera.',
     'fakeChat.timestamp2': '14:35',
     'fakeChat.message3': 'Francamente adoro. Possiamo testare una versione con un piccolo simbolo discreto?',
     'fakeChat.timestamp3': '14:52',
@@ -1922,7 +1922,7 @@ const translations = {
     'fakeChat.message7': 'Ed ecco le tre varianti finali, pronte per essere usate.',
     'fakeChat.timestamp7': '15:52',
     'fakeChat.attachmentName2': 'logo_NOIRBRUME_final.zip',
-    'fakeChat.message8': 'Grazie Théo, è esattamente quello che avevo in mente. Pulito, minimale, e super impattante 👏',
+    'fakeChat.message8': 'Grazie Théo, è esattamente quello che avevo in mente. Pulito, minimal, e super impattante 👏',
     'fakeChat.timestamp8': '16:01',
   },
 
