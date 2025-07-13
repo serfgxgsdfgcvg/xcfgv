@@ -252,9 +252,9 @@ export default function FakeChat() {
                   initial={{ scale: 0, rotate: -180 }}
                   whileInView={{ scale: 1, rotate: 0 }}
                   transition={{ delay: 0.9, type: "spring", stiffness: 200 }}
-                  className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg"
+                  className="w-10 h-10 bg-black dark:bg-white rounded-full flex items-center justify-center shadow-lg"
                 >
-                  <MessageCircle className="w-5 h-5 text-white" />
+                  <MessageCircle className="w-5 h-5 text-white dark:text-black" />
                 </motion.div>
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
@@ -299,7 +299,7 @@ export default function FakeChat() {
                         } rounded-2xl px-4 py-3 shadow-md hover:shadow-lg transition-all cursor-pointer`}
                       >
                         <div 
-                          className="text-sm sm:text-base leading-relaxed"
+                          className="text-sm sm:text-base leading-relaxed text-balance"
                           dangerouslySetInnerHTML={{ __html: message.content }}
                         />
                         

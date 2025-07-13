@@ -98,14 +98,14 @@ export default function Process() {
             transition={{ delay: 0.3 }}
             className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-black dark:text-white mb-6"
           >
-            {t('process.title')}
+            <span className="text-balance">{t('process.title')}</span>
           </motion.h2>
           
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
+            className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto text-balance"
           >
             Une méthode simple et sur-mesure. Chaque projet est unique, mais ma méthode reste solide pour donner vie à tes idées.
           </motion.p>
@@ -129,7 +129,7 @@ export default function Process() {
                     whileInView={{ scale: 1, rotate: 0 }}
                     transition={{ delay: step.delay + 0.2, type: "spring", stiffness: 200 }}
                     whileHover={{ scale: 1.1, rotate: 5 }}
-                    className={`w-16 h-16 bg-gradient-to-br ${step.color} text-white rounded-2xl flex items-center justify-center shadow-lg mx-auto mb-4`}
+                    className="w-16 h-16 bg-black dark:bg-white text-white dark:text-black rounded-2xl flex items-center justify-center shadow-lg mx-auto mb-4"
                   >
                     <step.icon className="w-8 h-8" />
                   </motion.div>
@@ -141,7 +141,7 @@ export default function Process() {
                   >
                     {step.title}
                   </motion.h3>
-                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-sm">
+                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-sm text-balance">
                     {step.description}
                   </p>
                 </motion.div>
@@ -167,7 +167,7 @@ export default function Process() {
               initial={{ width: 0 }}
               whileInView={{ width: 32 }}
               transition={{ delay: 1.2, duration: 0.8 }}
-              className="h-1 bg-gradient-to-r from-blue-500 to-purple-600"
+              className="h-1 bg-black dark:bg-white"
             />
             <span className="text-gray-500 dark:text-gray-400 font-medium tracking-wider uppercase text-sm">
               Exemple Concret
@@ -176,7 +176,7 @@ export default function Process() {
               initial={{ width: 0 }}
               whileInView={{ width: 32 }}
               transition={{ delay: 1.2, duration: 0.8 }}
-              className="h-1 bg-gradient-to-r from-purple-600 to-pink-500"
+              className="h-1 bg-black dark:bg-white"
             />
           </motion.div>
           
@@ -184,7 +184,7 @@ export default function Process() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.1 }}
-            className="text-2xl sm:text-3xl font-bold text-black dark:text-white mb-4"
+            className="text-2xl sm:text-3xl font-bold text-black dark:text-white mb-4 text-balance"
           >
             Exemple Concret
           </motion.h3>
@@ -193,7 +193,7 @@ export default function Process() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.2 }}
-            className="text-base text-gray-600 dark:text-gray-300 max-w-xl mx-auto mb-8"
+            className="text-base text-gray-600 dark:text-gray-300 max-w-xl mx-auto mb-8 text-balance"
           >
             Découvrez comment je transforme une idée en réalisation concrète.
           </motion.p>
@@ -215,13 +215,13 @@ export default function Process() {
         >
           <motion.div
             whileHover={{ scale: 1.02, y: -5 }}
-            className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-6 sm:p-8 border border-gray-100 dark:border-gray-700 shadow-lg"
+            className="bg-gray-50 dark:bg-gray-900 rounded-2xl p-6 sm:p-8 border border-gray-100 dark:border-gray-700 shadow-lg"
           >
             <motion.h3
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 1 }}
-              className="text-xl sm:text-2xl font-bold text-black dark:text-white mb-3"
+              className="text-xl sm:text-2xl font-bold text-black dark:text-white mb-3 text-balance"
             >
               Prêt à démarrer ?
             </motion.h3>
@@ -230,7 +230,7 @@ export default function Process() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.1 }}
-              className="text-gray-600 dark:text-gray-300 mb-6 text-base max-w-xl mx-auto"
+              className="text-gray-600 dark:text-gray-300 mb-6 text-base max-w-xl mx-auto text-balance"
             >
               Parlons de ton projet et donnons vie à tes idées ensemble.
             </motion.p>
