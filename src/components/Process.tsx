@@ -123,7 +123,7 @@ export default function Process() {
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="relative bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg border border-gray-100 dark:border-gray-700 hover:shadow-xl transition-all cursor-pointer"
               >
-                <div className="text-center">
+                <motion.div className="text-center">
                   <motion.div
                     initial={{ scale: 0, rotate: -180 }}
                     whileInView={{ scale: 1, rotate: 0 }}
