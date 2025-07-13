@@ -240,7 +240,7 @@ export default function About() {
                   className="primary-button bg-black dark:bg-white text-white dark:text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium flex items-center justify-center gap-3 hover:bg-gray-800 dark:hover:bg-gray-200 transition-all group text-sm sm:text-base flex-1 sm:flex-none"
                 >
                   <Brain className="w-4 h-4 sm:w-5 sm:h-5" />
-                  En savoir plus sur moi
+                  {t('about.learnMore')}
                   <motion.div
                     whileHover={{ x: 5 }}
                     transition={{ duration: 0.2 }}
@@ -257,7 +257,7 @@ export default function About() {
                   className="ugly-mode-button border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium flex items-center justify-center gap-3 hover:border-black dark:hover:border-white hover:bg-gray-50 dark:hover:bg-gray-900 transition-all group text-sm sm:text-base flex-1 sm:flex-none"
                 >
                   <RotateCcw className="w-4 h-4 sm:w-5 sm:h-5" />
-                  À quoi je sers ?
+                  {t('about.whatAmIFor')}
                 </motion.button>
               </div>
             </motion.div>
