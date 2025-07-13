@@ -60,8 +60,8 @@ const translations = {
     'about.skill1.desc': 'Maîtrise complète de la suite créative',
     'about.skill2.title': 'DaVinci Resolve',
     'about.skill2.desc': 'Montage vidéo et étalonnage professionnel',
-    'about.skill3.title': 'Autodesk',
-    'about.skill3.desc': 'Modélisation 3D et animation',
+    'about.skill3.title': 'Netflix',
+    'about.skill3.desc': 'En attente de réponse',
     'about.skill4.title': 'Figma',
     'about.skill4.desc': 'Design UI/UX et prototypage',
 
