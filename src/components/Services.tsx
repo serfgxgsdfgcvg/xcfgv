@@ -159,6 +159,7 @@ export default function Services() {
                 <span className="text-balance">
                   {service.description}
                 </span>
+                </p>
               </div>
               
               <ul className="space-y-3">
@@ -183,9 +184,6 @@ export default function Services() {
             </motion.div>
           ))}
         </div>
-          )
-          )
-          }
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
