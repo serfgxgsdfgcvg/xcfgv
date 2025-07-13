@@ -2498,23 +2498,23 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [language, setLanguage] = useState<Language>(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('language');
-      if (saved) return saved as Language;
+      return (saved as Language) || 'en';
       const browserLang = navigator.language.split('-')[0];
       return ['en', 'fr', 'es', 'ru', 'zh', 'ja', 'de', 'it', 'pt', 'sq'].includes(browserLang) 
         ? browserLang as Language 
         : 'fr';
     }
-    return 'fr';
+    return 'en';
   });
 
   useEffect(() => {
     localStorage.setItem('theme', theme);
     if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
+      return (saved as Theme) || 'light';
     } else {
       document.documentElement.classList.remove('dark');
     }
-  }, [theme]);
+    return 'light';
 
   useEffect(() => {
     localStorage.setItem('language', language);
