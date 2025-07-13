@@ -217,6 +217,12 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Médiamaticien suisse. J\'aide les marques à avoir une image qui tue.',
+    'footer.contact': 'Contact',
+    'footer.followMe': 'Me suivre',
+    'footer.projectsCompleted': 'Projets réalisés',
+    'footer.happyClients': 'Clients satisfaits',
+    'footer.yearsExperience': 'Années d\'expérience',
+    'footer.satisfaction': 'Satisfaction',
     'footer.quickLinks': 'Liens rapides',
     'footer.services': 'Ce que je fais',
     'footer.brandIdentity': 'Identité de Marque',
@@ -456,6 +462,12 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Swiss media designer. I help brands have a killer image.',
+    'footer.contact': 'Contact',
+    'footer.followMe': 'Follow Me',
+    'footer.projectsCompleted': 'Projects Completed',
+    'footer.happyClients': 'Happy Clients',
+    'footer.yearsExperience': 'Years Experience',
+    'footer.satisfaction': 'Satisfaction',
     'footer.quickLinks': 'Quick links',
     'footer.services': 'What I do',
     'footer.brandIdentity': 'Brand Identity',
@@ -695,6 +707,12 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Diseñador multimedia suizo. Ayudo a las marcas a tener una imagen que impacte.',
+    'footer.contact': 'Contacto',
+    'footer.followMe': 'Sígueme',
+    'footer.projectsCompleted': 'Proyectos Completados',
+    'footer.happyClients': 'Clientes Satisfechos',
+    'footer.yearsExperience': 'Años de Experiencia',
+    'footer.satisfaction': 'Satisfacción',
     'footer.quickLinks': 'Enlaces rápidos',
     'footer.services': 'Lo que hago',
     'footer.brandIdentity': 'Identidad de Marca',
@@ -934,6 +952,12 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Швейцарский медиа-дизайнер. Помогаю брендам иметь убойный имидж.',
+    'footer.contact': 'Контакт',
+    'footer.followMe': 'Подписаться',
+    'footer.projectsCompleted': 'Завершенные проекты',
+    'footer.happyClients': 'Довольные клиенты',
+    'footer.yearsExperience': 'Лет опыта',
+    'footer.satisfaction': 'Удовлетворенность',
     'footer.quickLinks': 'Быстрые ссылки',
     'footer.services': 'Что я делаю',
     'footer.brandIdentity': 'Фирменный стиль',
@@ -1173,6 +1197,12 @@ const translations = {
 
     // Footer Section
     'footer.description': '瑞士媒体设计师。帮助品牌拥有杀手级形象。',
+    'footer.contact': '联系方式',
+    'footer.followMe': '关注我',
+    'footer.projectsCompleted': '完成项目',
+    'footer.happyClients': '满意客户',
+    'footer.yearsExperience': '年经验',
+    'footer.satisfaction': '满意度',
     'footer.quickLinks': '快速链接',
     'footer.services': '我做什么',
     'footer.brandIdentity': '品牌识别',
@@ -1412,6 +1442,12 @@ const translations = {
 
     // Footer Section
     'footer.description': 'スイスのメディアデザイナー。ブランドが印象的なイメージを持つお手伝いをします。',
+    'footer.contact': '連絡先',
+    'footer.followMe': 'フォロー',
+    'footer.projectsCompleted': '完了プロジェクト',
+    'footer.happyClients': '満足クライアント',
+    'footer.yearsExperience': '年の経験',
+    'footer.satisfaction': '満足度',
     'footer.quickLinks': 'クイックリンク',
     'footer.services': '私がすること',
     'footer.brandIdentity': 'ブランドアイデンティティ',
@@ -1651,6 +1687,12 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Schweizer Mediendesigner. Ich helfe Marken, ein killer Image zu haben.',
+    'footer.contact': 'Kontakt',
+    'footer.followMe': 'Folgen Sie mir',
+    'footer.projectsCompleted': 'Abgeschlossene Projekte',
+    'footer.happyClients': 'Zufriedene Kunden',
+    'footer.yearsExperience': 'Jahre Erfahrung',
+    'footer.satisfaction': 'Zufriedenheit',
     'footer.quickLinks': 'Schnelle Links',
     'footer.services': 'Was ich mache',
     'footer.brandIdentity': 'Markenidentität',
@@ -1890,7 +1932,13 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Media designer svizzero. Aiuto i brand ad avere un\'immagine che spacca.',
-    'footer.quickLinks': 'Link rapidi',
+    'footer.contact': 'Contatto',
+    'footer.followMe': 'Seguimi',
+    'footer.projectsCompleted': 'Progetti Completati',
+    'footer.happyClients': 'Clienti Soddisfatti',
+    'footer.yearsExperience': 'Anni di Esperienza',
+    'footer.satisfaction': 'Soddisfazione',
+    'footer.quickLinks': 'Link veloci',
     'footer.services': 'Cosa faccio',
     'footer.brandIdentity': 'Identità di Brand',
     'footer.uiuxDesign': 'UI/UX Design',
@@ -2129,6 +2177,12 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Designer de mídia suíço. Ajudo marcas a terem uma imagem que arrasa.',
+    'footer.contact': 'Contato',
+    'footer.followMe': 'Siga-me',
+    'footer.projectsCompleted': 'Projetos Concluídos',
+    'footer.happyClients': 'Clientes Satisfeitos',
+    'footer.yearsExperience': 'Anos de Experiência',
+    'footer.satisfaction': 'Satisfação',
     'footer.quickLinks': 'Links rápidos',
     'footer.services': 'O que faço',
     'footer.brandIdentity': 'Identidade de Marca',
@@ -2368,6 +2422,12 @@ const translations = {
 
     // Footer Section
     'footer.description': 'Dizajner mediash zviceran. Ndihmoj markat të kenë një imazh që bën përshtypje.',
+    'footer.contact': 'Kontakt',
+    'footer.followMe': 'Më ndiqni',
+    'footer.projectsCompleted': 'Projekte të Përfunduara',
+    'footer.happyClients': 'Klientë të Kënaqur',
+    'footer.yearsExperience': 'Vite Përvojë',
+    'footer.satisfaction': 'Kënaqësi',
     'footer.quickLinks': 'Lidhje të shpejta',
     'footer.services': 'Çfarë bëj',
     'footer.brandIdentity': 'Identiteti i Markës',
