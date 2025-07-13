@@ -155,7 +155,7 @@ export default function About() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7 }}
-                className="text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed text-center lg:text-left"
+                className="text-base sm:text-lg text-gray-600 dark:text-gray-400 leading-relaxed text-center lg:text-left text-balance"
               >
                 {t('about.description1')}
               </motion.p>
@@ -164,7 +164,7 @@ export default function About() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
-                className="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed text-center lg:text-left"
+                className="text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-relaxed text-center lg:text-left text-balance"
               >
                 {t('about.description2')}
               </motion.p>
