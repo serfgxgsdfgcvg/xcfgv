@@ -391,10 +391,10 @@ export default function Testimonials() {
           </motion.div>
 
           <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Tu as travaillé avec moi ?
+            {t('testimonials.googleReviewTitle')}
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
-            Ton avis compte énormément ! Partage ton expérience sur Google Reviews et aide d'autres clients à découvrir la qualité de mes services créatifs.
+            {t('testimonials.googleReviewDescription')}
           </p>
 
           <motion.a
@@ -406,7 +406,7 @@ export default function Testimonials() {
             className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-green-500 text-white px-8 py-4 rounded-full font-medium hover:from-blue-600 hover:to-green-600 transition-all shadow-lg group"
           >
             <Star size={20} className="fill-current" />
-            Laisser un avis sur Google
+            {t('testimonials.googleReviewButton')}
             <motion.div
               whileHover={{ x: 5, rotate: 15 }}
               transition={{ duration: 0.2 }}
@@ -421,7 +421,7 @@ export default function Testimonials() {
                 <Star key={i} size={16} className="text-yellow-400 fill-current" />
               ))}
             </div>
-            <span>Ton avis nous aide à grandir</span>
+            <span>{t('testimonials.googleReviewFooter')}</span>
           </div>
         </motion.div>
       </div>
