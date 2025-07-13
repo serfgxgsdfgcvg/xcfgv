@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Heart, ArrowUp, Mail, Phone, MapPin, Calendar, Star, ExternalLink } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from 'react';
+import { Heart, ArrowUp, Mail, Phone, ExternalLink, Sparkles } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { useApp } from '../contexts/AppContext';
 
 // Icône Behance personnalisée
@@ -28,288 +28,364 @@ const InstagramIcon = ({ size = 24, className = "" }) => (
 
 export default function Footer() {
   const { t, theme } = useApp();
-  const [hoveredStat, setHoveredStat] = useState<number | null>(null);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
-  const stats = [
-    { number: '220+', label: t('footer.projectsCompleted'), icon: Star },
-    { number: '50+', label: t('footer.happyClients'), icon: Heart },
-    { number: '5+', label: t('footer.yearsExperience'), icon: Calendar },
-    { number: '99%', label: t('footer.satisfaction'), icon: Star }
-  ];
 
   const socialLinks = [
     {
       icon: LinkedinIcon,
       href: 'https://www.linkedin.com/in/theo-blondel-6952432aa/',
       label: 'LinkedIn',
-      description: 'Réseau professionnel'
+      color: 'from-blue-600 to-blue-700'
     },
     {
       icon: InstagramIcon,
       href: 'https://www.instagram.com/theo.blondel/',
       label: 'Instagram',
-      description: 'Créations visuelles'
+      color: 'from-pink-500 to-purple-600'
     },
     {
       icon: BehanceIcon,
       href: 'https://www.behance.net/theoblondel',
       label: 'Behance',
-      description: 'Portfolio créatif'
+      color: 'from-blue-500 to-indigo-600'
     }
   ];
 
-  const services = [
-    t('footer.brandIdentity'),
-    t('footer.uiuxDesign'),
-    t('footer.webDevelopment'),
-    t('footer.motionGraphics')
-  ];
-
   return (
-    <footer className="relative bg-white dark:bg-black text-gray-900 dark:text-white overflow-hidden">
+    <footer className="relative bg-gray-900 dark:bg-black text-white overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {[...Array(12)].map((_, i) => (
+        {/* Floating geometric shapes */}
+        {[...Array(8)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-1 h-1 bg-gray-200 dark:bg-gray-800 rounded-full"
+            className="absolute"
             initial={{ 
               x: Math.random() * (typeof window !== 'undefined' ? window.innerWidth : 1000),
               y: Math.random() * (typeof window !== 'undefined' ? window.innerHeight : 1000),
             }}
             animate={{ 
-              y: [null, -100, -200],
-              opacity: [0.3, 0.6, 0],
-              scale: [0.5, 1, 0.5]
+              x: [null, Math.random() * 100 - 50],
+              y: [null, Math.random() * 100 - 50],
+              rotate: [0, 360],
+              scale: [1, 1.2, 1]
             }}
             transition={{
-              duration: 12 + Math.random() * 6,
+              duration: 20 + Math.random() * 10,
               repeat: Infinity,
-              delay: Math.random() * 12,
-              ease: "easeOut"
+              ease: "linear"
             }}
-          />
+          >
+            <div className={`w-2 h-2 ${i % 2 === 0 ? 'bg-white/10' : 'bg-gray-400/10'} rounded-full`} />
+          </motion.div>
         ))}
+
+        {/* Gradient orbs */}
+        <motion.div
+          className="absolute top-20 left-20 w-64 h-64 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-3xl"
+          animate={{
+            scale: [1, 1.2, 1],
+            opacity: [0.3, 0.6, 0.3]
+          }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+        />
+        <motion.div
+          className="absolute bottom-20 right-20 w-48 h-48 bg-gradient-to-r from-pink-500/20 to-orange-500/20 rounded-full blur-3xl"
+          animate={{
+            scale: [1.2, 1, 1.2],
+            opacity: [0.4, 0.2, 0.4]
+          }}
+          transition={{
+            duration: 10,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+        />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-        {/* Header Section avec Logo */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          {/* Logo animé */}
+        {/* Main content */}
+        <div className="text-center mb-16">
+          {/* Logo avec animation sophistiquée */}
           <motion.div
-            initial={{ scale: 0, rotate: -180 }}
-            whileInView={{ scale: 1, rotate: 0 }}
-            transition={{ delay: 0.3, type: "spring", stiffness: 200 }}
-            whileHover={{ scale: 1.05, rotate: 5 }}
-            className="inline-block mb-8 cursor-pointer"
+            initial={{ opacity: 0, y: 50, scale: 0.8 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ duration: 1, type: "spring", stiffness: 100 }}
+            viewport={{ once: true }}
+            className="mb-12"
           >
-            <img
-              src={theme === 'dark' ? "/Groudp.png" : "/Mode_Isolation.png"}
-              alt="Theo Blondel Logo"
-              className="h-16 w-auto sm:h-20 object-contain mx-auto"
+            <motion.div
+              whileHover={{ 
+                scale: 1.1,
+                rotate: [0, -5, 5, 0],
+                transition: { duration: 0.6 }
+              }}
+              className="inline-block cursor-pointer relative"
+            >
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl"
+                animate={{
+                  scale: [1, 1.2, 1],
+                  opacity: [0.5, 0.8, 0.5]
+                }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+              />
+              <img
+                src={theme === 'dark' ? "/Groudp.png" : "/Mode_Isolation.png"}
+                alt="Theo Blondel Logo"
+                className="h-20 w-auto sm:h-24 object-contain relative z-10"
+              />
+            </motion.div>
+          </motion.div>
+
+          {/* Titre principal avec effet de typing */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 0.8 }}
+            viewport={{ once: true }}
+            className="mb-8"
+          >
+            <motion.h2
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.7, duration: 0.8 }}
+              className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent"
+            >
+              THEO BLONDEL
+            </motion.h2>
+            
+            <motion.div
+              initial={{ width: 0 }}
+              whileInView={{ width: "100%" }}
+              transition={{ delay: 1.2, duration: 1.5, ease: "easeOut" }}
+              className="h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mx-auto max-w-xs rounded-full"
             />
           </motion.div>
 
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-            className="text-3xl sm:text-4xl font-bold mb-4"
-          >
-            THEO BLONDEL
-          </motion.h2>
-          
+          {/* Description avec animation de fade */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
-            className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed"
+            transition={{ delay: 1.5, duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed mb-12"
           >
             {t('footer.description')}
           </motion.p>
-        </motion.div>
 
-        {/* Stats Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.7, duration: 0.8 }}
-          className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
-        >
-          {stats.map((stat, index) => (
-            <motion.div
-              key={stat.label}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.8 + index * 0.1, type: "spring" }}
-              whileHover={{ 
-                scale: 1.05, 
-                y: -5,
-                transition: { duration: 0.3 }
-              }}
-              onHoverStart={() => setHoveredStat(index)}
-              onHoverEnd={() => setHoveredStat(null)}
-              className="bg-gray-50 dark:bg-gray-900 rounded-2xl p-6 text-center cursor-pointer border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all"
-            >
-              <motion.div
-                animate={{ 
-                  rotate: hoveredStat === index ? 360 : 0,
-                  scale: hoveredStat === index ? 1.2 : 1
-                }}
-                transition={{ duration: 0.5 }}
-                className="w-12 h-12 bg-black dark:bg-white text-white dark:text-black rounded-xl flex items-center justify-center mx-auto mb-4"
-              >
-                <stat.icon className="w-6 h-6" />
-              </motion.div>
-              <div className="text-2xl sm:text-3xl font-bold mb-2">{stat.number}</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">{stat.label}</div>
-            </motion.div>
-          ))}
-        </motion.div>
-
-        {/* Main Content Grid */}
-        <div className="grid md:grid-cols-3 gap-12 mb-16">
-          {/* Contact Info */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.9, duration: 0.6 }}
-            className="space-y-6"
-          >
-            <h3 className="font-bold text-xl mb-6">{t('footer.contact')}</h3>
-            <div className="space-y-4">
-              {[
-                { icon: Mail, text: 'hello@theoblondel.ch', href: 'mailto:hello@theoblondel.ch' },
-                { icon: Phone, text: '+41 76 123 45 67', href: 'tel:+41761234567' },
-                { icon: MapPin, text: t('contact.locationValue'), href: '#' }
-              ].map((contact, index) => (
-                <motion.a
-                  key={contact.text}
-                  href={contact.href}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 1 + index * 0.1 }}
-                  whileHover={{ x: 5, scale: 1.02 }}
-                  className="flex items-center gap-3 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors group"
-                >
-                  <motion.div
-                    whileHover={{ scale: 1.2, rotate: 10 }}
-                    className="w-5 h-5 group-hover:text-black dark:group-hover:text-white transition-colors"
-                  >
-                    <contact.icon className="w-5 h-5" />
-                  </motion.div>
-                  <span className="font-medium">{contact.text}</span>
-                </motion.a>
-              ))}
-            </div>
-          </motion.div>
-
-          {/* Services */}
+          {/* Réseaux sociaux avec animations avancées */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.1, duration: 0.6 }}
-            className="space-y-6"
+            transition={{ delay: 1.8, duration: 0.8 }}
+            viewport={{ once: true }}
+            className="flex justify-center gap-6 mb-16"
           >
-            <h3 className="font-bold text-xl mb-6">{t('footer.services')}</h3>
-            <div className="space-y-3">
-              {services.map((service, index) => (
+            {socialLinks.map((social, index) => (
+              <motion.a
+                key={social.label}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, scale: 0, rotate: -180 }}
+                whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+                transition={{ 
+                  delay: 2 + index * 0.2, 
+                  type: "spring", 
+                  stiffness: 200,
+                  damping: 10
+                }}
+                whileHover={{ 
+                  scale: 1.2,
+                  y: -10,
+                  rotate: [0, -10, 10, 0],
+                  transition: { duration: 0.4 }
+                }}
+                whileTap={{ scale: 0.9 }}
+                className="group relative"
+              >
+                {/* Glow effect */}
                 <motion.div
-                  key={service}
-                  initial={{ opacity: 0, x: 20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 1.2 + index * 0.1 }}
-                  whileHover={{ x: 5, scale: 1.02 }}
-                  className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors cursor-pointer font-medium"
+                  className={`absolute inset-0 bg-gradient-to-r ${social.color} rounded-2xl blur-lg opacity-0 group-hover:opacity-75 transition-opacity duration-300`}
+                  animate={{
+                    scale: [1, 1.1, 1],
+                  }}
+                  transition={{
+                    duration: 2,
+                    repeat: Infinity,
+                    ease: "easeInOut"
+                  }}
+                />
+                
+                {/* Icon container */}
+                <div className="relative w-16 h-16 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl flex items-center justify-center group-hover:bg-white group-hover:text-gray-900 transition-all duration-300">
+                  <social.icon className="w-8 h-8" />
+                </div>
+                
+                {/* Label tooltip */}
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  whileHover={{ opacity: 1, y: 0 }}
+                  className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-xs font-medium whitespace-nowrap"
                 >
-                  {service}
+                  {social.label}
                 </motion.div>
-              ))}
-            </div>
-          </motion.div>
-
-          {/* Social Links */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ delay: 1.3, duration: 0.6 }}
-            className="space-y-6"
-          >
-            <h3 className="font-bold text-xl mb-6">{t('footer.followMe')}</h3>
-            <div className="space-y-4">
-              {socialLinks.map((social, index) => (
-                <motion.a
-                  key={social.label}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: 1.4 + index * 0.1, type: "spring" }}
-                  whileHover={{ scale: 1.05, x: 5 }}
-                  className="flex items-center gap-4 p-4 bg-gray-50 dark:bg-gray-900 rounded-xl hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-all group border border-gray-100 dark:border-gray-800"
-                >
-                  <motion.div
-                    whileHover={{ scale: 1.2, rotate: 10 }}
-                    className="w-6 h-6"
-                  >
-                    <social.icon className="w-6 h-6" />
-                  </motion.div>
-                  <div>
-                    <div className="font-medium">{social.label}</div>
-                    <div className="text-sm opacity-70">{social.description}</div>
-                  </div>
-                  <motion.div
-                    initial={{ opacity: 0, x: -10 }}
-                    whileHover={{ opacity: 1, x: 0 }}
-                    className="ml-auto"
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                  </motion.div>
-                </motion.a>
-              ))}
-            </div>
+              </motion.a>
+            ))}
           </motion.div>
         </div>
 
-        {/* Bottom Section */}
+        {/* Contact info avec design minimaliste */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.5, duration: 0.6 }}
-          className="flex flex-col md:flex-row items-center justify-between pt-12 border-t border-gray-200 dark:border-gray-800"
+          transition={{ delay: 2.5, duration: 0.8 }}
+          viewport={{ once: true }}
+          className="grid md:grid-cols-2 gap-8 mb-16"
         >
-          <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400 mb-6 md:mb-0">
+          <motion.a
+            href="mailto:hello@theoblondel.ch"
+            whileHover={{ scale: 1.02, y: -5 }}
+            className="group flex items-center gap-4 p-6 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl hover:bg-white/10 transition-all duration-300"
+          >
+            <motion.div
+              whileHover={{ rotate: 360 }}
+              transition={{ duration: 0.6 }}
+              className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center"
+            >
+              <Mail className="w-6 h-6 text-white" />
+            </motion.div>
+            <div>
+              <div className="text-sm text-gray-400 uppercase tracking-wider">{t('contact.email')}</div>
+              <div className="text-lg font-medium group-hover:text-blue-400 transition-colors">hello@theoblondel.ch</div>
+            </div>
+            <motion.div
+              initial={{ opacity: 0, x: -10 }}
+              whileHover={{ opacity: 1, x: 0 }}
+              className="ml-auto"
+            >
+              <ExternalLink className="w-5 h-5" />
+            </motion.div>
+          </motion.a>
+
+          <motion.div
+            whileHover={{ scale: 1.02, y: -5 }}
+            className="group flex items-center gap-4 p-6 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl hover:bg-white/10 transition-all duration-300"
+          >
+            <motion.div
+              whileHover={{ rotate: 360 }}
+              transition={{ duration: 0.6 }}
+              className="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-600 rounded-xl flex items-center justify-center"
+            >
+              <Phone className="w-6 h-6 text-white" />
+            </motion.div>
+            <div>
+              <div className="text-sm text-gray-400 uppercase tracking-wider">{t('contact.location')}</div>
+              <div className="text-lg font-medium">{t('contact.locationValue')}</div>
+            </div>
+          </motion.div>
+        </motion.div>
+
+        {/* Bottom section avec animations */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 3, duration: 0.8 }}
+          viewport={{ once: true }}
+          className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/10"
+        >
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ delay: 3.2, duration: 0.6 }}
+            className="flex items-center gap-3 text-gray-400 mb-6 md:mb-0"
+          >
             <span>{t('footer.madeWith')}</span>
             <motion.div
-              animate={{ scale: [1, 1.2, 1] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-              whileHover={{ scale: 1.5, rotate: 15 }}
+              animate={{ 
+                scale: [1, 1.3, 1],
+                rotate: [0, 10, -10, 0]
+              }}
+              transition={{ 
+                duration: 2, 
+                repeat: Infinity, 
+                ease: "easeInOut" 
+              }}
+              whileHover={{ 
+                scale: 1.5, 
+                rotate: 360,
+                transition: { duration: 0.6 }
+              }}
             >
               <Heart className="w-5 h-5 text-red-500 fill-current" />
             </motion.div>
             <span>{t('footer.inSwitzerland')}</span>
-          </div>
+          </motion.div>
           
           <div className="flex items-center gap-6">
-            <span className="text-gray-600 dark:text-gray-400">{t('footer.allRights')}</span>
+            <motion.span
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ delay: 3.4, duration: 0.6 }}
+              className="text-gray-400"
+            >
+              {t('footer.allRights')}
+            </motion.span>
+            
             <motion.button
               onClick={scrollToTop}
-              whileHover={{ scale: 1.1, y: -2, rotate: 5 }}
+              initial={{ opacity: 0, scale: 0 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 3.6, type: "spring", stiffness: 200 }}
+              whileHover={{ 
+                scale: 1.1, 
+                y: -5,
+                rotate: [0, -10, 10, 0],
+                transition: { duration: 0.4 }
+              }}
               whileTap={{ scale: 0.9 }}
-              className="w-12 h-12 bg-black dark:bg-white text-white dark:text-black rounded-xl flex items-center justify-center hover:bg-gray-800 dark:hover:bg-gray-200 transition-all shadow-lg"
+              className="group relative w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300"
             >
-              <ArrowUp className="w-6 h-6" />
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                animate={{
+                  rotate: [0, 360],
+                }}
+                transition={{
+                  duration: 8,
+                  repeat: Infinity,
+                  ease: "linear"
+                }}
+              />
+              <ArrowUp className="w-6 h-6 text-white relative z-10" />
+              
+              {/* Sparkle effect */}
+              <motion.div
+                className="absolute -top-1 -right-1"
+                animate={{
+                  scale: [0, 1, 0],
+                  rotate: [0, 180, 360],
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+              >
+                <Sparkles className="w-3 h-3 text-yellow-400" />
+              </motion.div>
             </motion.button>
           </div>
         </motion.div>
