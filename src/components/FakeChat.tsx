@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, Download } from 'lucide-react';
+import { useApp } from '../contexts/AppContext';
 
 interface Message {
   id: number;
@@ -13,6 +14,7 @@ interface Message {
 }
 
 export default function FakeChat() {
+  const { t } = useApp();
   const [visibleMessages, setVisibleMessages] = useState<number[]>([]);
   const [isTyping, setIsTyping] = useState(false);
   const [hasStarted, setHasStarted] = useState(false);
@@ -23,58 +25,58 @@ export default function FakeChat() {
     {
       id: 1,
       type: 'client',
-      content: 'Salut Théo ! J\'ai besoin d\'un logo pour ma marque "NOIRBRUME". Un style streetwear, sobre et poétique.',
-      timestamp: '14:32'
+      content: t('fakeChat.message1'),
+      timestamp: t('fakeChat.timestamp1')
     },
     {
       id: 2,
       type: 'you',
-      content: 'Trop stylé comme nom ! Je vois déjà un logo typographique minimal avec une ambiance brumeuse. Je t\'envoie une première idée ce soir !',
-      timestamp: '14:35'
+      content: t('fakeChat.message2'),
+      timestamp: t('fakeChat.timestamp2')
     },
     {
       id: 3,
       type: 'client',
-      content: 'J\'ai trop hâte de voir ça',
-      timestamp: '14:36'
+      content: t('fakeChat.message3'),
+      timestamp: t('fakeChat.timestamp3')
     },
     {
       id: 4,
       type: 'you',
-      content: 'Voilà un premier concept avec croquis et direction graphique.',
-      timestamp: '19:42',
+      content: t('fakeChat.message4'),
+      timestamp: t('fakeChat.timestamp4'),
       hasAttachment: true,
-      attachmentName: 'NOIRBRUME_Concept_1.pdf',
+      attachmentName: t('fakeChat.attachmentName1'),
       attachmentUrl: '/DSC00831.png'
     },
     {
       id: 5,
       type: 'client',
-      content: 'WAW. C\'est exactement ce que je voulais ! On part sur ça',
-      timestamp: '19:45'
+      content: t('fakeChat.message5'),
+      timestamp: t('fakeChat.timestamp5')
     },
     {
       id: 6,
       type: 'you',
-      content: 'Parfait ! Voici le design final en couleur et en noir & blanc.',
-      timestamp: '20:15',
+      content: t('fakeChat.message6'),
+      timestamp: t('fakeChat.timestamp6'),
       hasAttachment: true,
-      attachmentName: 'NOIRBRUME_Final_Package.zip',
+      attachmentName: t('fakeChat.attachmentName2'),
       attachmentUrl: '/DSC00831.png'
     },
     {
       id: 7,
       type: 'client',
-      content: 'Incroyable ! Merci pour ton style et ta réactivité',
-      timestamp: '20:18'
+      content: t('fakeChat.message7'),
+      timestamp: t('fakeChat.timestamp7')
     },
     {
       id: 8,
       type: 'you',
-      content: 'Et voilà le dossier complet avec tous les formats :<br/>Logo vectoriel (AI, SVG, PDF)<br/>Versions PNG haute résolution<br/>Guide d\'utilisation',
-      timestamp: '20:20',
+      content: t('fakeChat.message8'),
+      timestamp: t('fakeChat.timestamp8'),
       hasAttachment: true,
-      attachmentName: 'NOIRBRUME_Complete_Brand_Kit.zip',
+      attachmentName: t('fakeChat.attachmentName3'),
       attachmentUrl: '/DSC00831.png'
     }
   ];
@@ -262,14 +264,14 @@ export default function FakeChat() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ delay: 1.0 }}
                 >
-                  <h3 className="font-semibold text-black dark:text-white">Client - NOIRBRUME</h3>
+                  <h3 className="font-semibold text-black dark:text-white">{t('fakeChat.clientName')}</h3>
                   <div className="flex items-center gap-2">
                     <motion.div
                       animate={{ scale: [1, 1.2, 1] }}
                       transition={{ duration: 2, repeat: Infinity }}
                       className="w-2 h-2 bg-green-500 rounded-full"
                     />
-                    <p className="text-sm text-gray-500 dark:text-gray-400">En ligne</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">{t('fakeChat.onlineStatus')}</p>
                   </div>
                 </motion.div>
               </div>
@@ -321,7 +323,7 @@ export default function FakeChat() {
                               </motion.div>
                               <div className="flex-1">
                                 <p className="text-sm font-medium">{message.attachmentName}</p>
-                                <p className="text-xs opacity-70">Fichier joint</p>
+                                <p className="text-xs opacity-70">{t('fakeChat.attachmentLabel')}</p>
                               </div>
                               <motion.button
                                 onClick={() => handleDownload(message.attachmentUrl!, message.attachmentName!)}
@@ -329,7 +331,7 @@ export default function FakeChat() {
                                 whileTap={{ scale: 0.95 }}
                                 className="text-xs px-3 py-1 bg-white/20 dark:bg-black/20 rounded-full hover:bg-white/30 dark:hover:bg-black/30 transition-all shadow-sm"
                               >
-                                Télécharger
+                                {t('fakeChat.downloadButton')}
                               </motion.button>
                             </div>
                           </motion.div>
@@ -374,7 +376,7 @@ export default function FakeChat() {
                             className="w-2 h-2 bg-gray-400 dark:bg-gray-500 rounded-full"
                           />
                         </div>
-                        <span className="text-xs text-gray-500 dark:text-gray-400 font-medium">écrit...</span>
+                        <span className="text-xs text-gray-500 dark:text-gray-400 font-medium">{t('fakeChat.typingIndicator')}</span>
                       </div>
                     </div>
                   </motion.div>
