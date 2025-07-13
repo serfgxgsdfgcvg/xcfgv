@@ -115,7 +115,7 @@ export default function Portfolio() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            className="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
+            className="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-balance"
           >
             {t('portfolio.description')}
           </motion.p>
@@ -190,7 +190,7 @@ export default function Portfolio() {
                   >
                     {project.title}
                   </motion.h3>
-                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed group-hover:text-gray-700 dark:group-hover:text-gray-400 transition-colors text-sm sm:text-base line-clamp-3">
+                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors text-sm sm:text-base line-clamp-3 text-balance">
                     {project.description}
                   </p>
                 </div>

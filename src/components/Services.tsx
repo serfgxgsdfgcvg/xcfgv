@@ -120,7 +120,7 @@ export default function Services() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
+            className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-balance"
           >
             {t('services.description')}
           </motion.p>
@@ -156,6 +156,7 @@ export default function Services() {
                   {service.title}
                 </motion.h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6 group-hover:text-gray-700 dark:group-hover:text-gray-400 transition-colors text-sm sm:text-base">
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors text-sm sm:text-base text-balance">
                   {service.description}
                 </p>
               </div>
