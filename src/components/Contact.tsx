@@ -287,25 +287,19 @@ export default function Contact() {
                     icon: Linkedin, 
                     href: 'https://www.linkedin.com/in/theo-blondel-6952432aa/', 
                     label: 'LinkedIn',
-                    color: 'hover:bg-blue-600'
+                    color: 'hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black'
                   },
                   { 
                     icon: Instagram, 
                     href: 'https://www.instagram.com/theo.blondel/', 
                     label: 'Instagram',
-                    value: t('contact.locationValue'), 
+                    color: 'hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black'
                   },
                   { 
                     icon: BehanceIcon, 
                     href: 'https://www.behance.net/theoblondel', 
                     label: 'Behance',
-                    color: 'hover:bg-blue-500'
-                  },
-                  { 
-                    icon: Github, 
-                    href: 'https://github.com/theoblondel', 
-                    label: 'GitHub',
-                    description: t('contact.locationDesc')
+                    color: 'hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black'
                   }
                 ].map((social, index) => (
                   <motion.a
