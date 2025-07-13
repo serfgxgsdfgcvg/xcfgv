@@ -93,6 +93,11 @@ const translations = {
     'process.step6.title': 'Livraison & Accompagnement',
     'process.step6.desc': 'Remise des fichiers optimisés, prêts à l\'emploi (web, print, réseaux). Je reste dispo pour toi !',
 
+    'process.readyToStart': 'Prêt à démarrer ton projet ?',
+    'process.readyToStartDesc': 'Parlons de ta vision et voyons comment nous pouvons la concrétiser ensemble avec la même attention aux détails.',
+    'process.startProject': 'Démarrer un projet',
+    'process.viewProjects': 'Voir mes réalisations',
+
     'process.example.title': 'Exemple Concret',
     'process.example.subtitle': 'Projet "NOIRBRUME"',
     'process.example.description': 'Découvre mon processus en action à travers une conversation réaliste avec un client fictif. De la demande initiale à la livraison finale.',
@@ -349,6 +354,11 @@ const translations = {
     'process.step5.desc': 'Your feedback is essential. We adjust together until we validate what perfectly resembles you.',
     'process.step6.title': 'Delivery & Support',
     'process.step6.desc': 'Delivery of optimized files, ready to use (web, print, networks). I remain available for you!',
+
+    'process.readyToStart': 'Ready to start your project?',
+    'process.readyToStartDesc': 'Let\'s talk about your vision and see how we can bring it to life together with the same attention to detail.',
+    'process.startProject': 'Start a project',
+    'process.viewProjects': 'View my work',
 
     'process.example.title': 'Concrete Example',
     'process.example.subtitle': '"NOIRBRUME" Project',
@@ -607,6 +617,11 @@ const translations = {
     'process.step6.title': 'Entrega y Acompañamiento',
     'process.step6.desc': 'Entrega de archivos optimizados, listos para usar (web, impresión, redes). ¡Sigo disponible para ti!',
 
+    'process.readyToStart': '¿Listo para comenzar tu proyecto?',
+    'process.readyToStartDesc': 'Hablemos de tu visión y veamos cómo podemos hacerla realidad juntos con la misma atención al detalle.',
+    'process.startProject': 'Iniciar un proyecto',
+    'process.viewProjects': 'Ver mis trabajos',
+
     'process.example.title': 'Ejemplo Concreto',
     'process.example.subtitle': 'Proyecto "NOIRBRUME"',
     'process.example.description': 'Descubre mi proceso en acción a través de una conversación realista con un cliente ficticio. Desde la solicitud inicial hasta la entrega final.',
@@ -847,6 +862,11 @@ const translations = {
     'process.step5.desc': 'Ваши отзывы важны. Мы корректируем вместе, пока не утвердим то, что идеально вас представляет.',
     'process.step6.title': 'Доставка и поддержка',
     'process.step6.desc': 'Доставка оптимизированных файлов, готовых к использованию (веб, печать, сети). Я остаюсь доступным для вас!',
+
+    'process.readyToStart': 'Готовы начать свой проект?',
+    'process.readyToStartDesc': 'Давайте поговорим о вашем видении и посмотрим, как мы можем воплотить его в жизнь вместе с таким же вниманием к деталям.',
+    'process.startProject': 'Начать проект',
+    'process.viewProjects': 'Посмотреть мои работы',
 
     'process.example.title': 'Конкретный пример',
     'process.example.subtitle': 'Проект "NOIRBRUME"',
@@ -1089,6 +1109,11 @@ const translations = {
     'process.step6.title': '交付和支持',
     'process.step6.desc': '交付优化的文件，准备使用（网络、印刷、网络）。我仍然为您提供服务！',
 
+    'process.readyToStart': '准备开始您的项目？',
+    'process.readyToStartDesc': '让我们谈谈您的愿景，看看我们如何能够以同样的细致关注一起将其变为现实。',
+    'process.startProject': '开始项目',
+    'process.viewProjects': '查看我的作品',
+
     'process.example.title': '具体例子',
     'process.example.subtitle': '"NOIRBRUME"项目',
     'process.example.description': '通过与虚构客户的现实对话，发现我的流程实际操作。从初始请求到最终交付。',
@@ -1329,6 +1354,11 @@ const translations = {
     'process.step5.desc': 'あなたのフィードバックは不可欠です。あなたを完璧に表すものを検証するまで一緒に調整します。',
     'process.step6.title': '納品とサポート',
     'process.step6.desc': '使用準備完了の最適化されたファイルの納品（ウェブ、印刷、ネットワーク）。私はあなたのために利用可能です！',
+
+    'process.readyToStart': 'プロジェクトを始める準備はできていますか？',
+    'process.readyToStartDesc': 'あなたのビジョンについて話し合い、同じ細部への注意を払いながら、一緒にそれを実現する方法を見てみましょう。',
+    'process.startProject': 'プロジェクトを開始',
+    'process.viewProjects': '私の作品を見る',
 
     'process.example.title': '具体例',
     'process.example.subtitle': '"NOIRBRUME"プロジェクト',
@@ -1571,6 +1601,11 @@ const translations = {
     'process.step6.title': 'Lieferung & Begleitung',
     'process.step6.desc': 'Lieferung optimierter, gebrauchsfertiger Dateien (Web, Print, Netzwerke). Ich bleibe für Sie verfügbar!',
 
+    'process.readyToStart': 'Bereit, Ihr Projekt zu starten?',
+    'process.readyToStartDesc': 'Lassen Sie uns über Ihre Vision sprechen und sehen, wie wir sie gemeinsam mit der gleichen Aufmerksamkeit für Details zum Leben erwecken können.',
+    'process.startProject': 'Projekt starten',
+    'process.viewProjects': 'Meine Arbeiten ansehen',
+
     'process.example.title': 'Konkretes Beispiel',
     'process.example.subtitle': '"NOIRBRUME" Projekt',
     'process.example.description': 'Entdecken Sie meinen Prozess in Aktion durch ein realistisches Gespräch mit einem fiktiven Kunden. Von der ersten Anfrage bis zur finalen Lieferung.',
@@ -1811,6 +1846,11 @@ const translations = {
     'process.step5.desc': 'Il tuo feedback è essenziale. Aggiustiamo insieme fino a validare ciò che ti rappresenta perfettamente.',
     'process.step6.title': 'Consegna e Accompagnamento',
     'process.step6.desc': 'Consegna di file ottimizzati, pronti all\'uso (web, stampa, reti). Rimango disponibile per te!',
+
+    'process.readyToStart': 'Pronto a iniziare il tuo progetto?',
+    'process.readyToStartDesc': 'Parliamo della tua visione e vediamo come possiamo realizzarla insieme con la stessa attenzione ai dettagli.',
+    'process.startProject': 'Iniziare un progetto',
+    'process.viewProjects': 'Vedere i miei lavori',
 
     'process.example.title': 'Esempio Concreto',
     'process.example.subtitle': 'Progetto "NOIRBRUME"',
@@ -2053,6 +2093,11 @@ const translations = {
     'process.step6.title': 'Entrega e Acompanhamento',
     'process.step6.desc': 'Entrega de arquivos otimizados, prontos para uso (web, impressão, redes). Continuo disponível para você!',
 
+    'process.readyToStart': 'Pronto para iniciar seu projeto?',
+    'process.readyToStartDesc': 'Vamos falar sobre sua visão e ver como podemos torná-la realidade juntos com a mesma atenção aos detalhes.',
+    'process.startProject': 'Iniciar um projeto',
+    'process.viewProjects': 'Ver meus trabalhos',
+
     'process.example.title': 'Exemplo Concreto',
     'process.example.subtitle': 'Projeto "NOIRBRUME"',
     'process.example.description': 'Descubra meu processo em ação através de uma conversa realista com um cliente fictício. Do pedido inicial à entrega final.',
@@ -2293,6 +2338,11 @@ const translations = {
     'process.step5.desc': 'Reagimi juaj është thelbësor. Rregullojmë së bashku derisa të vërtetojmë atë që ju përfaqëson perfekt.',
     'process.step6.title': 'Dorëzimi dhe Mbështetja',
     'process.step6.desc': 'Dorëzimi i skedarëve të optimizuar, gati për përdorim (web, print, rrjete). Mbetëm në dispozicion për ju!',
+
+    'process.readyToStart': 'Gati për të filluar projektin tuaj?',
+    'process.readyToStartDesc': 'Le të flasim për vizionin tuaj dhe të shohim se si mund ta realizojmë së bashku me të njëjtën vëmendje ndaj detajeve.',
+    'process.startProject': 'Fillo një projekt',
+    'process.viewProjects': 'Shiko punët e mia',
 
     'process.example.title': 'Shembull Konkret',
     'process.example.subtitle': 'Projekti "NOIRBRUME"',

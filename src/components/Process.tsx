@@ -267,16 +267,16 @@ export default function Process() {
               transition={{ delay: 1 }}
               className="text-2xl sm:text-3xl font-bold text-black dark:text-white mb-4"
             >
-              Prêt à démarrer ton projet ?
+              {t('process.readyToStart')}
             </motion.h3>
             
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.1 }}
-              className="text-gray-600 dark:text-gray-300 mb-8 text-lg max-w-2xl mx-auto"
+              className="text-gray-600 dark:text-gray-300 mb-8 text-lg max-w-2xl mx-auto whitespace-pre-wrap"
             >
-              Parlons de ta vision et voyons comment nous pouvons la concrétiser ensemble avec la même attention aux détails.
+              {t('process.readyToStartDesc')}
             </motion.p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
