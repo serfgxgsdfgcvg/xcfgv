@@ -27,10 +27,10 @@ const translations = {
     // Hero Section
     hero: {
       subtitle: 'Creative Solutions',
-      greeting: 'Hello, I am',
-      title1: 'Theo',
-      title2: 'Creative',
-      title3: 'Solutions',
+      greeting: 'Hello, I am Theo',
+      title1: 'Solutions',
+      title2: 'creative',
+      title3: 'versatile',
       description: 'Mediamatician based in Switzerland, I combine artistic creativity and technical expertise to create authentic visual experiences.',
       contactMe: 'Contact Me',
       watchDemo: 'Watch Demo',
@@ -332,10 +332,10 @@ const translations = {
     // Hero Section
     hero: {
       subtitle: 'Médiamaticien',
-      greeting: 'Yo, moi c\'est',
-      title1: 'Theo',
-      title2: 'Solutions',
-      title3: 'créatives polyvalentes',
+      greeting: 'Yo, moi c\'est Theo',
+      title1: 'Solutions',
+      title2: 'créatives',
+      title3: 'polyvalentes',
       description: 'Je suis médiamaticien en Suisse, et je transforme tes idées en projets visuels propres, impactants, et vraiment stylés.',
       contactMe: 'On en parle ?',
       watchDemo: 'Voir la Démo',
