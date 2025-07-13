@@ -37,6 +37,11 @@ export default function Contact() {
   const [formErrors, setFormErrors] = useState<FormErrors>({});
   const [submissionSuccess, setSubmissionSuccess] = useState(false);
 
+  // Debug logs pour vérifier les traductions
+  console.log('Debug: contact.locationValue =', t('contact.locationValue'));
+  console.log('Debug: contact.locationDesc =', t('contact.locationDesc'));
+  console.log('Debug: current language =', useApp().language);
+
   const validateEmail = (email: string): boolean => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
