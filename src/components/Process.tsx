@@ -239,7 +239,7 @@ export default function Process() {
             transition={{ delay: 1.2 }}
             className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-12"
           >
-            {t('process.example.description')}
+            {t('process.readyToStartDesc')}
           </motion.p>
         </motion.div>
       </div>
@@ -289,7 +289,7 @@ export default function Process() {
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-3 bg-black dark:bg-white text-white dark:text-black px-8 py-4 rounded-full font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-all shadow-lg group"
               >
-                Démarrer un projet
+                {t('process.startProject')}
                 <motion.div
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.2 }}
@@ -307,7 +307,7 @@ export default function Process() {
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-8 py-4 rounded-full font-medium hover:border-black dark:hover:border-white hover:bg-gray-50 dark:hover:bg-gray-900 transition-all group"
               >
-                Voir mes réalisations
+                {t('process.viewProjects')}
                 <motion.div
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.2 }}

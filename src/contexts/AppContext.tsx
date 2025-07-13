@@ -96,6 +96,10 @@ const translations = {
     'process.example.title': 'Exemple Concret',
     'process.example.subtitle': 'Projet "NOIRBRUME"',
     'process.example.description': 'Découvre mon processus en action à travers une conversation réaliste avec un client fictif. De la demande initiale à la livraison finale.',
+    'process.readyToStart': 'Prêt à démarrer ton projet ?',
+    'process.readyToStartDesc': 'Parlons de ta vision et voyons comment nous pouvons la concrétiser ensemble avec la même attention aux détails.',
+    'process.startProject': 'Démarrer un projet',
+    'process.viewProjects': 'Voir mes réalisations',
 
     // Fake Chat
     'fakeChat.clientName': 'Client - NOIRBRUME',
@@ -349,6 +353,10 @@ const translations = {
     'process.example.title': 'Concrete Example',
     'process.example.subtitle': '"NOIRBRUME" Project',
     'process.example.description': 'Discover my process in action through a realistic conversation with a fictional client. From initial request to final delivery.',
+    'process.readyToStart': 'Ready to start your project?',
+    'process.readyToStartDesc': 'Let\'s talk about your vision and see how we can bring it to life together with the same attention to detail.',
+    'process.startProject': 'Start a project',
+    'process.viewProjects': 'View my work',
 
     // Fake Chat
     'fakeChat.clientName': 'Client - NOIRBRUME',
@@ -602,6 +610,10 @@ const translations = {
     'process.example.title': 'Ejemplo Concreto',
     'process.example.subtitle': 'Proyecto "NOIRBRUME"',
     'process.example.description': 'Descubre mi proceso en acción a través de una conversación realista con un cliente ficticio. Desde la solicitud inicial hasta la entrega final.',
+    'process.readyToStart': '¿Listo para comenzar tu proyecto?',
+    'process.readyToStartDesc': 'Hablemos de tu visión y veamos cómo podemos hacerla realidad juntos con la misma atención al detalle.',
+    'process.startProject': 'Iniciar un proyecto',
+    'process.viewProjects': 'Ver mis trabajos',
 
     // Fake Chat
     'fakeChat.clientName': 'Cliente - NOIRBRUME',
@@ -839,6 +851,10 @@ const translations = {
     'process.example.title': 'Конкретный пример',
     'process.example.subtitle': 'Проект "NOIRBRUME"',
     'process.example.description': 'Откройте для себя мой процесс в действии через реалистичный разговор с вымышленным клиентом. От первоначального запроса до финальной доставки.',
+    'process.readyToStart': 'Готовы начать свой проект?',
+    'process.readyToStartDesc': 'Давайте поговорим о вашем видении и посмотрим, как мы можем воплотить его в жизнь вместе с таким же вниманием к деталям.',
+    'process.startProject': 'Начать проект',
+    'process.viewProjects': 'Посмотреть мои работы',
 
     // Fake Chat
     'fakeChat.clientName': 'Клиент - NOIRBRUME',
@@ -1076,6 +1092,10 @@ const translations = {
     'process.example.title': '具体例子',
     'process.example.subtitle': '"NOIRBRUME"项目',
     'process.example.description': '通过与虚构客户的现实对话，发现我的流程实际操作。从初始请求到最终交付。',
+    'process.readyToStart': '准备开始您的项目？',
+    'process.readyToStartDesc': '让我们谈谈您的愿景，看看我们如何能够以同样的细致关注一起将其变为现实。',
+    'process.startProject': '开始项目',
+    'process.viewProjects': '查看我的作品',
 
     // Fake Chat
     'fakeChat.clientName': '客户 - NOIRBRUME',
@@ -1313,6 +1333,10 @@ const translations = {
     'process.example.title': '具体例',
     'process.example.subtitle': '"NOIRBRUME"プロジェクト',
     'process.example.description': '架空のクライアントとの現実的な会話を通じて、私のプロセスの実際の動作を発見してください。初期リクエストから最終納品まで。',
+    'process.readyToStart': 'プロジェクトを始める準備はできていますか？',
+    'process.readyToStartDesc': 'あなたのビジョンについて話し合い、同じ細部への注意を払って一緒に実現する方法を見てみましょう。',
+    'process.startProject': 'プロジェクトを開始',
+    'process.viewProjects': '私の作品を見る',
 
     // Fake Chat
     'fakeChat.clientName': 'クライアント - NOIRBRUME',
@@ -1550,6 +1574,10 @@ const translations = {
     'process.example.title': 'Konkretes Beispiel',
     'process.example.subtitle': '"NOIRBRUME" Projekt',
     'process.example.description': 'Entdecken Sie meinen Prozess in Aktion durch ein realistisches Gespräch mit einem fiktiven Kunden. Von der ersten Anfrage bis zur finalen Lieferung.',
+    'process.readyToStart': 'Bereit, Ihr Projekt zu starten?',
+    'process.readyToStartDesc': 'Lassen Sie uns über Ihre Vision sprechen und sehen, wie wir sie gemeinsam mit der gleichen Aufmerksamkeit für Details zum Leben erwecken können.',
+    'process.startProject': 'Projekt starten',
+    'process.viewProjects': 'Meine Arbeiten ansehen',
 
     // Fake Chat
     'fakeChat.clientName': 'Kunde - NOIRBRUME',
@@ -1787,6 +1815,10 @@ const translations = {
     'process.example.title': 'Esempio Concreto',
     'process.example.subtitle': 'Progetto "NOIRBRUME"',
     'process.example.description': 'Scopri il mio processo in azione attraverso una conversazione realistica con un cliente fittizio. Dalla richiesta iniziale alla consegna finale.',
+    'process.readyToStart': 'Pronto a iniziare il tuo progetto?',
+    'process.readyToStartDesc': 'Parliamo della tua visione e vediamo come possiamo realizzarla insieme con la stessa attenzione ai dettagli.',
+    'process.startProject': 'Iniziare un progetto',
+    'process.viewProjects': 'Vedere i miei lavori',
 
     // Fake Chat
     'fakeChat.clientName': 'Cliente - NOIRBRUME',
@@ -2024,6 +2056,10 @@ const translations = {
     'process.example.title': 'Exemplo Concreto',
     'process.example.subtitle': 'Projeto "NOIRBRUME"',
     'process.example.description': 'Descubra meu processo em ação através de uma conversa realista com um cliente fictício. Do pedido inicial à entrega final.',
+    'process.readyToStart': 'Pronto para iniciar seu projeto?',
+    'process.readyToStartDesc': 'Vamos falar sobre sua visão e ver como podemos torná-la realidade juntos com a mesma atenção aos detalhes.',
+    'process.startProject': 'Iniciar um projeto',
+    'process.viewProjects': 'Ver meus trabalhos',
 
     // Fake Chat
     'fakeChat.clientName': 'Cliente - NOIRBRUME',
@@ -2261,6 +2297,10 @@ const translations = {
     'process.example.title': 'Shembull Konkret',
     'process.example.subtitle': 'Projekti "NOIRBRUME"',
     'process.example.description': 'Zbuloni procesin tim në veprim përmes një bisede realiste me një klient fiktiv. Nga kërkesa fillestare deri te dorëzimi përfundimtar.',
+    'process.readyToStart': 'Gati për të filluar projektin tuaj?',
+    'process.readyToStartDesc': 'Le të flasim për vizionin tuaj dhe të shohim se si mund ta realizojmë së bashku me të njëjtën vëmendje ndaj detajeve.',
+    'process.startProject': 'Fillo një projekt',
+    'process.viewProjects': 'Shiko punët e mia',
 
     // Fake Chat
     'fakeChat.clientName': 'Klient - NOIRBRUME',
