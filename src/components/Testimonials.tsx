@@ -118,8 +118,14 @@ export default function Testimonials() {
 
     onInit(emblaApi);
     onSelect(emblaApi);
-    emblaApi.on('reInit', onInit);
-    emblaApi.on('select', onSelect);
+    
+    const unsubscribeReInit = emblaApi.on('reInit', onInit);
+    const unsubscribeSelect = emblaApi.on('select', onSelect);
+    
+    return () => {
+      if (unsubscribeReInit) unsubscribeReInit();
+      if (unsubscribeSelect) unsubscribeSelect();
+    };
   }, [emblaApi, onInit, onSelect]);
 
   // Auto-play functionality
