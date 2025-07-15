@@ -2507,16 +2507,27 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     return 'en';
   });
 
+  // Load saved theme and language from localStorage
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme && (savedTheme === 'light' || savedTheme === 'dark')) {
+      setTheme(savedTheme);
+    }
+    
+    const savedLanguage = localStorage.getItem('language');
+    if (savedLanguage && ['en', 'fr', 'es', 'ru', 'zh', 'ja', 'de', 'it', 'pt', 'sq'].includes(savedLanguage)) {
+      setLanguage(savedLanguage as Language);
+    }
+  }, []);
+
   useEffect(() => {
     localStorage.setItem('theme', theme);
     if (theme === 'dark') {
-      return (saved as Theme) || 'light';
+      document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
-    return 'light';
-  }
-  )
+  }, [theme]);
 
   useEffect(() => {
     localStorage.setItem('language', language);
